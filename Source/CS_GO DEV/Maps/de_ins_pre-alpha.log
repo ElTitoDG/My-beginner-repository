@@ -1,0 +1,3414 @@
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 54
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19044 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 111 texinfos to 81
+Reduced 16 texdatas to 13 (492 bytes to 387)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 322 portalclusters
+1018 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 371 visible clusters (0.00%)
+Total clusters visible: 86341
+Average clusters visible: 268
+Building PAS...
+Average clusters audible: 322
+visdatasize:29013  compressed from 30912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+948 faces
+1693507 square feet [243865072.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+948 patches before subdivision
+21196 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 934552, max 327
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(106126, 94585, 78321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10495, 8487, 5625)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1080, 812, 469)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(118, 81, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 48/8192          576/98304    ( 0.6%) 
+brushsides             332/81920        2656/655360   ( 0.4%) 
+planes                 460/65536        9200/1310720  ( 0.7%) 
+vertexes              1295/65536       15540/786432   ( 2.0%) 
+nodes                  773/65536       24736/2097152  ( 1.2%) 
+texinfos                81/12288        5832/884736   ( 0.7%) 
+texdata                 13/4096          416/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  948/65536       53088/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              217/65536       12152/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         948/0            3792/0        ( 0.0%) 
+leaves                 777/65536       24864/2097152  ( 1.2%) 
+leaffaces             1113/65536        2226/131072   ( 1.7%) 
+leafbrushes            477/65536         954/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5233/512000      20932/2048000  ( 1.0%) 
+edges                 2723/256000      10892/1024000  ( 1.1%) 
+LDR worldlights          4/8192          400/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1107/65536        2214/131072   ( 1.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2437400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29013/16777216 ( 0.2%) 
+entdata               [variable]        2243/393216   ( 0.6%) 
+LDR ambient table      777/65536        3108/262144   ( 1.2%) 
+HDR ambient table      777/65536        3108/262144   ( 1.2%) 
+LDR leaf ambient      2977/65536       83356/1835008  ( 4.5%) 
+HDR leaf ambient       777/65536       21756/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4960     ( 0.0%) 
+pakfile               [variable]      739111/0        ( 0.0%) 
+physics               [variable]       19044/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2468
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 55
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20308 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 117 texinfos to 84
+Reduced 16 texdatas to 13 (492 bytes to 387)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 341 portalclusters
+1079 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 344 visible clusters (0.00%)
+Total clusters visible: 87547
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 340
+visdatasize:32018  compressed from 32736
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+1013 faces
+1722231 square feet [248001360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1013 patches before subdivision
+23951 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1318504, max 360
+transfer lists:  10.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(69740, 63167, 52668)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7013, 5630, 3597)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(687, 514, 284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(79, 53, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(9, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0052 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             368/81920        2944/655360   ( 0.4%) 
+planes                 488/65536        9760/1310720  ( 0.7%) 
+vertexes              1378/65536       16536/786432   ( 2.1%) 
+nodes                  807/65536       25824/2097152  ( 1.2%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 13/4096          416/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1013/65536       56728/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              229/65536       12824/3670016  ( 0.3%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists        1013/0            4052/0        ( 0.0%) 
+leaves                 811/65536       25952/2097152  ( 1.2%) 
+leaffaces             1182/65536        2364/131072   ( 1.8%) 
+leafbrushes            497/65536         994/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5575/512000      22300/2048000  ( 1.1%) 
+edges                 2905/256000      11620/1024000  ( 1.1%) 
+LDR worldlights          4/8192          400/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             80/32768         800/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1119/65536        2238/131072   ( 1.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2863704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32018/16777216 ( 0.2%) 
+entdata               [variable]        2243/393216   ( 0.6%) 
+LDR ambient table      811/65536        3244/262144   ( 1.2%) 
+HDR ambient table      811/65536        3244/262144   ( 1.2%) 
+LDR leaf ambient      3208/65536       89824/1835008  ( 4.9%) 
+HDR leaf ambient       811/65536       22708/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4960     ( 0.0%) 
+pakfile               [variable]      739111/0        ( 0.0%) 
+physics               [variable]       20308/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2636
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 56
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20308 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 117 texinfos to 84
+Reduced 16 texdatas to 13 (492 bytes to 387)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 341 portalclusters
+1079 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 344 visible clusters (0.00%)
+Total clusters visible: 87547
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 340
+visdatasize:32018  compressed from 32736
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+1013 faces
+1722231 square feet [248001360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1013 patches before subdivision
+23951 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1318504, max 360
+transfer lists:  10.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43758, 33025, 26583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4113, 2833, 1847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(426, 274, 154)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(49, 30, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             368/81920        2944/655360   ( 0.4%) 
+planes                 488/65536        9760/1310720  ( 0.7%) 
+vertexes              1378/65536       16536/786432   ( 2.1%) 
+nodes                  807/65536       25824/2097152  ( 1.2%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                 13/4096          416/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1013/65536       56728/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              229/65536       12824/3670016  ( 0.3%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists        1013/0            4052/0        ( 0.0%) 
+leaves                 811/65536       25952/2097152  ( 1.2%) 
+leaffaces             1182/65536        2364/131072   ( 1.8%) 
+leafbrushes            497/65536         994/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5575/512000      22300/2048000  ( 1.1%) 
+edges                 2905/256000      11620/1024000  ( 1.1%) 
+LDR worldlights          4/8192          400/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             80/32768         800/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1119/65536        2238/131072   ( 1.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2863704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32018/16777216 ( 0.2%) 
+entdata               [variable]        2258/393216   ( 0.6%) 
+LDR ambient table      811/65536        3244/262144   ( 1.2%) 
+HDR ambient table      811/65536        3244/262144   ( 1.2%) 
+LDR leaf ambient      3018/65536       84504/1835008  ( 4.6%) 
+HDR leaf ambient       811/65536       22708/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4960     ( 0.0%) 
+pakfile               [variable]      739111/0        ( 0.0%) 
+physics               [variable]       20308/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2636
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 58
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1129513, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45559, 34319, 27663)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4131, 2872, 1916)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(407, 264, 152)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(45, 28, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights          4/8192          400/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]        2258/393216   ( 0.6%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2046/65536       57288/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5860     ( 0.0%) 
+pakfile               [variable]      944663/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+11 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 59
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1129130, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46986, 35599, 28761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4357, 3065, 2058)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(447, 296, 173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(52, 33, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0066 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights          7/8192          700/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]        3002/393216   ( 0.8%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2045/65536       57260/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6234     ( 0.0%) 
+pakfile               [variable]      964913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 60
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+67 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1126925, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(77251, 63027, 52454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9227, 7259, 5185)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1300, 980, 615)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(195, 141, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         67/8192         6700/819200   ( 0.8%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       17900/393216   ( 4.6%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2036/65536       57008/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7710     ( 0.0%) 
+pakfile               [variable]     1086413/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+54 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 61
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+65 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1127173, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(80227, 65756, 54780)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9739, 7703, 5512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1390, 1053, 661)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(210, 152, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 23, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         65/8192         6500/819200   ( 0.8%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       17042/393216   ( 4.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2034/65536       56952/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7500     ( 0.0%) 
+pakfile               [variable]     1057135/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+65 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1127173, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(80227, 65756, 54780)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9739, 7703, 5512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1390, 1053, 661)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(210, 152, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 23, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces              867/65536       48552/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         65/8192         6500/819200   ( 0.8%) 
+HDR worldlights         65/8192         6500/819200   ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]     3024148/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       17042/393216   ( 4.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2034/65536       56952/1835008  ( 3.1%) 
+HDR leaf ambient      2034/65536       56952/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7500     ( 0.0%) 
+pakfile               [variable]     1964657/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 34 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 62
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(68248, 54727, 45242)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7809, 6018, 4253)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1058, 783, 486)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(155, 110, 60)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 16, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2039/65536       57092/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(68248, 54727, 45242)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7809, 6018, 4253)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1058, 783, 486)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(155, 110, 60)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 16, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces              867/65536       48552/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]     3024148/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2039/65536       57092/1835008  ( 3.1%) 
+HDR leaf ambient      2039/65536       57092/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 17 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 63
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65290, 52057, 42935)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7330, 5607, 3947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(974, 715, 442)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(141, 99, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 15, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65290, 52056, 42935)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7329, 5607, 3947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(974, 715, 442)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(141, 99, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 15, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces              867/65536       48552/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]     3024148/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+HDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 64
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(62332, 49387, 40629)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6850, 5195, 3640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(889, 647, 399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(127, 89, 48)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 13, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+867 faces
+1737909 square feet [250258912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+867 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24823 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1130480, max 310
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(62332, 49387, 40629)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6850, 5195, 3640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(889, 647, 399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(127, 89, 48)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 13, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes              1222/65536       14664/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  867/65536       48552/3670016  ( 1.3%) 
+hdr faces              867/65536       48552/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         867/0            3468/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1337/65536        2674/131072   ( 2.0%) 
+leafbrushes            453/65536         906/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5178/512000      20712/2048000  ( 1.0%) 
+edges                 2783/256000      11132/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             98/32768         980/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1494/65536        2988/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3024148/0        ( 0.0%) 
+HDR lightdata         [variable]     3024148/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12578/393216   ( 3.2%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2439
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 18 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 66
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+868 faces
+1738051 square feet [250279360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+868 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24858 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1126377, max 307
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(78363, 73732, 58607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8432, 7293, 4900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1038, 829, 492)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(143, 107, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(21, 15, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 498/65536        9960/1310720  ( 0.8%) 
+vertexes              1225/65536       14700/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  868/65536       48608/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         868/0            3472/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1347/65536        2694/131072   ( 2.1%) 
+leafbrushes            459/65536         918/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5199/512000      20796/2048000  ( 1.0%) 
+edges                 2792/256000      11168/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            105/32768        1050/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3021192/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2065/65536       57820/1835008  ( 3.2%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2458
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+868 faces
+1738051 square feet [250279360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+868 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24858 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1126377, max 307
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(78380, 73749, 58621)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8434, 7295, 4901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1038, 830, 492)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(143, 107, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(21, 15, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 498/65536        9960/1310720  ( 0.8%) 
+vertexes              1225/65536       14700/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  868/65536       48608/3670016  ( 1.3%) 
+hdr faces              868/65536       48608/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         868/0            3472/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1347/65536        2694/131072   ( 2.1%) 
+leafbrushes            459/65536         918/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5199/512000      20796/2048000  ( 1.0%) 
+edges                 2792/256000      11168/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            105/32768        1050/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3021192/0        ( 0.0%) 
+HDR lightdata         [variable]     3021192/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      2065/65536       57820/1835008  ( 3.2%) 
+HDR leaf ambient      2065/65536       57820/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2458
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 67
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21844 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 122 texinfos to 91
+Reduced 17 texdatas to 14 (530 bytes to 425)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 224 portalclusters
+ 702 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 49558
+Average clusters visible: 221
+Building PAS...
+Average clusters audible: 224
+visdatasize:14339  compressed from 14336
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+868 faces
+1738051 square feet [250279360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+868 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24858 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1126377, max 307
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(62574, 57303, 45102)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6991, 5925, 3980)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(898, 707, 421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(128, 94, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 13, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 498/65536        9960/1310720  ( 0.8%) 
+vertexes              1225/65536       14700/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  868/65536       48608/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         868/0            3472/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1347/65536        2694/131072   ( 2.1%) 
+leafbrushes            459/65536         918/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5199/512000      20796/2048000  ( 1.0%) 
+edges                 2792/256000      11168/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            105/32768        1050/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3021192/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      1955/65536       54740/1835008  ( 3.0%) 
+HDR leaf ambient       561/65536       15708/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2458
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+868 faces
+1738051 square feet [250279360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+868 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+24858 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1126377, max 307
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(62560, 57290, 45091)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6990, 5924, 3979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(898, 707, 421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(128, 94, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 13, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             392/81920        3136/655360   ( 0.5%) 
+planes                 498/65536        9960/1310720  ( 0.8%) 
+vertexes              1225/65536       14700/786432   ( 1.9%) 
+nodes                  557/65536       17824/2097152  ( 0.8%) 
+texinfos                91/12288        6552/884736   ( 0.7%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  868/65536       48608/3670016  ( 1.3%) 
+hdr faces              868/65536       48608/3670016  ( 1.3%) 
+origfaces              252/65536       14112/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         868/0            3472/0        ( 0.0%) 
+leaves                 561/65536       17952/2097152  ( 0.9%) 
+leaffaces             1347/65536        2694/131072   ( 2.1%) 
+leafbrushes            459/65536         918/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5199/512000      20796/2048000  ( 1.0%) 
+edges                 2792/256000      11168/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            105/32768        1050/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3021192/0        ( 0.0%) 
+HDR lightdata         [variable]     3021192/0        ( 0.0%) 
+visdata               [variable]       14339/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      561/65536        2244/262144   ( 0.9%) 
+HDR ambient table      561/65536        2244/262144   ( 0.9%) 
+LDR leaf ambient      1955/65536       54740/1835008  ( 3.0%) 
+HDR leaf ambient      1955/65536       54740/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6844     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       21844/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2458
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 69
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 93
+Reduced 18 texdatas to 15 (536 bytes to 431)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 53661
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 233
+visdatasize:15846  compressed from 14912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+27 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64755, 59457, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7572, 6454, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3072808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64755, 59457, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7572, 6454, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces              890/65536       49840/3670016  ( 1.4%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3072808/0        ( 0.0%) 
+HDR lightdata         [variable]     3072808/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 11 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 69
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 93
+Reduced 18 texdatas to 15 (536 bytes to 431)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6..
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 69
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 93
+Reduced 18 texdatas to 15 (536 bytes to 431)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 53661
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 233
+visdatasize:15846  compressed from 14912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+30 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64755, 59457, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7572, 6454, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0177 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3072808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 35 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64756, 59458, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7573, 6455, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0081 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces              890/65536       49840/3670016  ( 1.4%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3072808/0        ( 0.0%) 
+HDR lightdata         [variable]     3072808/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+HDR leaf ambient      2040/65536       57120/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 31 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 70
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 93
+Reduced 18 texdatas to 15 (546 bytes to 441)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 53661
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 233
+visdatasize:15846  compressed from 14912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+30 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64755, 59457, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7572, 6454, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2967868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2038/65536       57064/1835008  ( 3.1%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64755, 59457, 47262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7572, 6454, 4421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1012, 806, 494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(152, 114, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(24, 17, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                 15/4096          480/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces              890/65536       49840/3670016  ( 1.4%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2967868/0        ( 0.0%) 
+HDR lightdata         [variable]     2967868/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2038/65536       57064/1835008  ( 3.1%) 
+HDR leaf ambient      2038/65536       57064/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 22 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 71
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 125 texinfos to 94
+Reduced 19 texdatas to 16 (575 bytes to 470)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 53661
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 233
+visdatasize:15846  compressed from 14912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67839, 62645, 49541)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8128, 7001, 4759)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1165, 946, 569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(183, 141, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 23, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0095 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 16/4096          512/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2899660/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67839, 62645, 49541)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8128, 7001, 4759)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1165, 946, 569)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(183, 141, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 23, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 16/4096          512/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces              890/65536       49840/3670016  ( 1.4%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2899660/0        ( 0.0%) 
+HDR lightdata         [variable]     2899660/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+HDR leaf ambient      2042/65536       57176/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 26 seconds elapsed
+
+
+
+materialPath: D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.vmf
+Map revision 72
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/concrete_floor_1_blend_1_wvt_patch
+Patching WVT material: maps/de_ins_pre-alpha/hr_massive/gravel_1_blend_1_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22420 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 125 texinfos to 94
+Reduced 19 texdatas to 16 (583 bytes to 478)
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+reading d:\games\cs_go dev\maps\de_ins_pre-alpha.prt
+ 233 portalclusters
+ 739 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 53661
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 233
+visdatasize:15846  compressed from 14912
+writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(55694, 50738, 38824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5942, 4959, 3170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 498, 273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(82, 58, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 16/4096          512/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2899660/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2037/65536       57036/1835008  ( 3.1%) 
+HDR leaf ambient       577/65536       16156/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]      967295/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 23 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+890 faces
+1741630 square feet [250794720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+890 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+25366 patches after subdivision
+47 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1136847, max 322
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(55694, 50737, 38823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5941, 4959, 3170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 498, 273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(82, 58, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0069 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             414/81920        3312/655360   ( 0.5%) 
+planes                 530/65536       10600/1310720  ( 0.8%) 
+vertexes              1252/65536       15024/786432   ( 1.9%) 
+nodes                  573/65536       18336/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 16/4096          512/131072   ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  890/65536       49840/3670016  ( 1.4%) 
+hdr faces              890/65536       49840/3670016  ( 1.4%) 
+origfaces              262/65536       14672/3670016  ( 0.4%) 
+facebrushes              7/0              14/0        ( 0.0%) 
+facebrushlists         890/0            3560/0        ( 0.0%) 
+leaves                 577/65536       18464/2097152  ( 0.9%) 
+leaffaces             1405/65536        2810/131072   ( 2.1%) 
+leafbrushes            476/65536         952/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5334/512000      21336/2048000  ( 1.0%) 
+edges                 2866/256000      11464/1024000  ( 1.1%) 
+LDR worldlights         47/8192         4700/819200   ( 0.6%) 
+HDR worldlights         47/8192         4700/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1620/65536        3240/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2899660/0        ( 0.0%) 
+HDR lightdata         [variable]     2899660/0        ( 0.0%) 
+visdata               [variable]       15846/16777216 ( 0.1%) 
+entdata               [variable]       12920/393216   ( 3.3%) 
+LDR ambient table      577/65536        2308/262144   ( 0.9%) 
+HDR ambient table      577/65536        2308/262144   ( 0.9%) 
+LDR leaf ambient      2037/65536       57036/1835008  ( 3.1%) 
+HDR leaf ambient      2037/65536       57036/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6888     ( 0.0%) 
+pakfile               [variable]     1784913/0        ( 0.0%) 
+physics               [variable]       22420/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2513
+Writing d:\games\cs_go dev\maps\de_ins_pre-alpha.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\games\cs_go dev\maps\de_ins_pre-alpha.bsp', but we don't own that location. Allowing...
+1 minute, 24 seconds elapsed
