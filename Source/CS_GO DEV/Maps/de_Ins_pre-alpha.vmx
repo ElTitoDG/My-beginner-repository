@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "72"
+	"mapversion" "73"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "72"
+	"mapversion" "73"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5207,9 +5207,9 @@ entity
 		{
 			"id" "921"
 			"plane" "(-1471 2244 736) (16 2244 736) (16 1619 920)"
-			"material" "4K/ROOF_09_DIFF_4K"
-			"uaxis" "[1 0 0 44] 0.11"
-			"vaxis" "[0 -0.958314 0.285717 -3198] 0.11"
+			"material" "CONCRETE/CINDERWALL02_DIRTY"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -0.958314 0.285717 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5283,9 +5283,9 @@ entity
 		{
 			"id" "927"
 			"plane" "(15.9999 1619 920) (16 993 736) (-1471 993 736)"
-			"material" "4K/ROOF_09_DIFF_4K"
-			"uaxis" "[-1 0 0 44] 0.11"
-			"vaxis" "[0 0.958314 0.285717 -3198] 0.11"
+			"material" "CONCRETE/CINDERWALL02_DIRTY"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0.958314 0.285717 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5587,9 +5587,9 @@ entity
 		{
 			"id" "951"
 			"plane" "(-1459 1353 224) (-1459 2218 224) (15.9999 2218 224)"
-			"material" "4K/CONCRETE_FLOOR_PAINTED_DIFF_4K"
-			"uaxis" "[1 0 0 0] 0.11"
-			"vaxis" "[0 -1 0 0] 0.11"
+			"material" "CONCRETE/BAGGAGE_CONCRETEFLOORA"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
