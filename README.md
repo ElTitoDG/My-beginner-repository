@@ -17,13 +17,13 @@ This will be organized in the following way:
   - Python
   - HTML
   - C
-  - SQF (later)
+  - SQF/Arma Scripting (later)
 - Exercises
   - C++
   - Python
   - HTML
   - C
-  - SQF (later)
+  - SQF/Arma Scripting (later)
 
 This will obviously change as we go along, but for now this will be the initial layout
 
