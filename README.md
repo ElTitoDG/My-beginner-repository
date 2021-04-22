@@ -1,38 +1,14 @@
-# 📂 My-beginner-repository 📂
+# Source Branch 
+- - - -
+## Index
+* Welcome/What is this?
+* Future Plans
+- - - -
+### Welcome/What is this?
 
-Repository dedicated to my evolution as a programmer 
+Welcome to the Source branch. 
+This is going to be only dedicated to the Source engine and its different tools where you can find any kind of resources dedicated to my projects, tests and practices.
+- - - -
+### Future Plans
 
-Hi, I'm a teenager and I'm 16 years old from Spain, I've just started programming. 
-
-I have opened this repository to be able to see my evolution in the world of programming. 
-
-I will be mainly focused on languages such as: Python, C++, C, HTML and SQF (to make arma 3 mods e.g.), later I will explain the objectives I want with each language. 
-
-## Organization
-
-This will be organized in the following way: 
-
-- Practices
-  - C++
-  - Python
-  - HTML
-  - C
-  - SQF (later)
-- Exercises
-  - C++
-  - Python
-  - HTML
-  - C
-  - SQF (later)
-
-This will obviously change as we go along, but for now this will be the initial layout
-
-## Objectives
-
-In each folder you will find (as I develop) an .mb or .txt file where the objectives will be commented. 
-
-### Task list
-
-- [x] Finish README.md
-- [ ] Create all folders
-- [ ] Spanish translation
+Welcome to the Source branch, this is going to be only dedicated to the Source engine and its different tools where you can find any kind of resources dedicated to my projects, tests and practices.
