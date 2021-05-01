@@ -28,7 +28,7 @@ int main(void)
     if (glewInit() != GLEW_OK)
         std::cout << "Error" << std::endl;
 
-    std::cout << glewGetString(GL_VERSION) << std::endl;
+    //std::cout << glewGetString(GL_VERSION) << std::endl; |It doesn´t work IDK
 
 
     /* Loop until the user closes the window */
