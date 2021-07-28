@@ -1,2 +1,5 @@
 ﻿  App.cpp
-  OpenGL_window.vcxproj -> D:\Git-Hub Repository\My-beginer-repository\Practices\Visual Studio 2019\VS_practices\x64\Debug\OpenGL_window.exe
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+glew32s.lib(glew.obj) : warning LNK4099: no se encontró PDB 'vc120.pdb' con 'glew32s.lib(glew.obj)' o en 'D:\Trabajo\Git-Hub\My-beginer-repository\Practices\Visual Studio 2019\VS_practices\x64\Debug\vc120.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  OpenGL_window.vcxproj -> D:\Trabajo\Git-Hub\My-beginer-repository\Practices\Visual Studio 2019\VS_practices\x64\Debug\OpenGL_window.exe
