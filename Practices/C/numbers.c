@@ -3,7 +3,8 @@
 
 int main(){
 
-    printf("%f", 8.9);
+    int num = 6;
+    printf("%d", num);
 
     return 0;
 }
