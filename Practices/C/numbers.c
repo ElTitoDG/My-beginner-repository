@@ -1,10 +1,11 @@
 #include<stdlib.h>
 #include<stdio.h>
+#include<math.h>
 
 int main(){
 
-    int num = 6;
-    printf("%d", num);
+    
+    printf("%f", floor(36.656) ); //these functions uses math.h
 
     return 0;
 }
