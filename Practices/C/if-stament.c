@@ -13,5 +13,7 @@ int Max(int num1, int num2) {
 
 int main() {
 
+    printf("%d", Max(4, 10));
+
     return 0;
 }
