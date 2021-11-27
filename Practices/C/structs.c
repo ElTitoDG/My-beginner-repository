@@ -24,19 +24,21 @@ int main()  {
     printf("--------------------------------------------------------\n");
 
     printf("Insert your name: ");
-    scanf(" %c", &student1.name);
+    fgets(student1.name, 50, stdin);
     printf("College degree: ");
-    scanf(" %c", &student1.degree);
+    fgets(student1.degree, 100, stdin);
     printf("Insert your curent age: ");
     scanf("%d", &student1.age);
     printf("Insert your GPA: ");
     scanf("%lf", &student1.gpa);
 
-    printf("Name: %c", student1.name);
-    printf("Degree: %c", student1.degree);
-    printf("Age: %f", student1.age);
-    printf("GPA: %.2f", student1.gpa);
 
+    printf("------------------------------\n");
+    printf("Name: %s", student1.name);
+    printf("Degree: %s", student1.degree);
+    printf("Age: %d\n", student1.age);
+    printf("GPA: %.2f\n", student1.gpa);
+    printf("------------------------------\n");
 
 
     return 0;
