@@ -13,7 +13,7 @@ int main(void)
     printf("\n");
     printf("Welcome to the credit card validator\n");
     
-    //Get Card number
+    //Get Card number || Isn't working IDK why
     long long int card;
     do
     {
