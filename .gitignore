@@ -1,1 +1,4 @@
 .DS_store
+*.
+*.exe
+/Projectos/rust-lang/bevy-test/target
