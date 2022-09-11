@@ -50,3 +50,5 @@
 ;(unpin! t)
 
 (package! evil-tutor)
+
+(package! org-superstar)

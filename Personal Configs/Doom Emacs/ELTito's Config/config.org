@@ -10,7 +10,4 @@ my settings
 (after! org
     (setq org-directory "~/org/")
     (setq org-agenda-file '("~/org/agenda.org"))
-    (require 'org-bullets)
-    (add-hook 'org-mode-hook (lamba () (org-bullets-mode 1)))
-)
 #+END_SRC
