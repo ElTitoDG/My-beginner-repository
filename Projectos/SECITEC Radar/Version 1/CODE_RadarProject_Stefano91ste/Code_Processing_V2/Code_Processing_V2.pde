@@ -22,11 +22,11 @@ void setup()
   //gfx = new ToxiclibsSupport(this);
   smooth();
   
-  //println(Serial.list());
+  println(Serial.list());
   
   //String portName = Serial.list()[0];
   String portName = "/dev/tty.usbmodem1101";
-  port = new Serial(this, portName, 9600);
+  port = new Serial(this, portName, 9600); //<>//
   
   //port = new Serial(this,"COM4", 9600);
   port.bufferUntil('#');
@@ -80,7 +80,7 @@ void draw()
   stroke(255,10,10); // red color
   objectDistance = radarDistance*15;
   textSize(25);
-  text("Test", 100, 10);
+  text("Test", 10, 10);
 
   if(radarDistance<40)
   {
