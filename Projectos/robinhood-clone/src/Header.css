@@ -24,7 +24,7 @@
     width: 365px;
 }
 
-.header__searchContainer > input {
+.header__searchContainer input {
     background-color: transparent;
     border: none;
     width: 100%;
@@ -33,7 +33,7 @@
     color: #FFFFFF;
 }
 
-.header__searchContainer > input:focus {
+.header__searchContainer input:focus {
     outline: none;
 }
 
