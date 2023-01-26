@@ -52,3 +52,10 @@
 (package! evil-tutor)
 
 (package! org-superstar)
+
+(package! haskell-mode)
+(package! lsp-haskell)
+(add-hook 'haskell-mode-hook #'lsp)
+(add-hook 'haskell-literate-mode-hook #'lsp)
+
+(package! company-tabnine)
