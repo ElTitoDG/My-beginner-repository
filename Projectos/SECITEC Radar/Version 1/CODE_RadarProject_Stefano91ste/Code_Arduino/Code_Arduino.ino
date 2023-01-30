@@ -39,11 +39,11 @@ void loop()
   for(int i=180;i>=0;i--)
   {
     radarServo.write(i);
-    delay(50);
+    delay(25);
     digitalWrite(trigPin, LOW); 
-    delayMicroseconds(2);
+    delayMicroseconds(1);
     digitalWrite(trigPin, HIGH); 
-    delayMicroseconds(10);
+    delayMicroseconds(5);
     digitalWrite(trigPin, LOW);
     duration = pulseIn(echoPin, HIGH);
     distinCM = duration*0.034/2;
