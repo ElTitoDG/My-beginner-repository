@@ -19,7 +19,7 @@ function fibonacci(num1, num2, count) {
 }
 
 // parse value of prompt() to int
-function promptInt(string) {
+export function promptInt(string) {
   let input = prompt(string);
   return parseInt(input);
 }
