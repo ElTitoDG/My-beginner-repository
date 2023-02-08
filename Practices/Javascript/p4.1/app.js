@@ -1,14 +1,14 @@
 /*
- * Create a function that inputs two numbers and the times is going to use the fibonacci function
+ * Crea una función que pida la cantidad de repeticiones y según ese número
 */
 
-// parse value of prompt() to int
+//  Analiza valor de prompt() para convertirlo en entero
 function promptInt(string) {
   let input = prompt(string);
   return parseInt(input);
 }
 
-//totalAdd function
+// Función de suma
 function totalAdd(count) {
   let ans = 0;
   for (i = 1; i <= count; i++) {
@@ -18,8 +18,11 @@ function totalAdd(count) {
   return ans;
 }
 
+// Declarando parametros de la función
 let input = promptInt("Number of iterations: ");
 
+//Iniciando función
 let print = totalAdd(input);
 
-document.writeln(print);
+// Imprimir el resultado
+document.writeln("The final result is: ", print);

@@ -1,8 +1,14 @@
 /*
- * Create a function that inputs two numbers and the times is going to use the fibonacci function
+ * Crea una función que pida dos números y las veces que va a usar la función de fibonacci
 */
 
-//Fibonaccio function
+// Analiza valor de prompt() para convertirlo en entero
+function promptInt(string) {
+  let input = prompt(string);
+  return parseInt(input);
+}
+
+//función Fibonacci
 function fibonacci(num1, num2, count) {
 
   let res;
@@ -18,13 +24,7 @@ function fibonacci(num1, num2, count) {
   }
 }
 
-// parse value of prompt() to int
-export function promptInt(string) {
-  let input = prompt(string);
-  return parseInt(input);
-}
-
-// Initiates the function
+// Iniciar la función
 fibonacci(
   /* num1 param */promptInt("Introduce un numero: "),
   /* num2 param */promptInt("Introduce otro numero: "),

@@ -11,8 +11,12 @@ function promptInt(string) {
 //Función que hace la potencia
 function toPower(base, exponent) {
   let power = 1;
+  let res = 1;
   for (i = 1; i <= exponent; i++) {
-    power = power * base;
+    power = power + res;
+    for (i=1; i<=base; i++) {
+      res = res + base;
+    }
   }
   return power;
 }
@@ -22,7 +26,7 @@ let base = promptInt(" Input a base: ");
 let exponent = promptInt(" Input a exponent:  ");
 
 //Llamando a la función
-let res = toPower(base, exponent);
+let ress = toPower(base, exponent);
 
 //Enseñando resultado
-document.writeln("The result of the power is: ", res);
+document.writeln("The result of the power is: ", ress);
