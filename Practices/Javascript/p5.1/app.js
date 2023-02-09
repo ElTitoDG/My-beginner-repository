@@ -7,15 +7,30 @@
  *  y muestra una ventana de diálogo en la que se pide al usuario que ingrese un valor.
  *  El valor ingresado se convierte a un número entero y se devuelve.
  */
-function promptInt(string) {
+function promptInt(string)
+{
   let input = prompt(string);
   return parseInt(input);
 }
 
 //Forma mas moderna que usar document.writeln
-function printDoc(element, string, extra) {
 
-  if (extra !== null){
+/*
+ *  Función que crea un nuevo elemento HTML en el cuerpo del documento y le agrega contenido de texto.
+ *  La función toma tres argumentos:
+ *
+ *  1. element: especifica el tipo de elemento HTML que se va a crear, por ejemplo, "p" para un párrafo o "h1" para un encabezado.
+ *  2. string: es el contenido de texto principal que se asignará al nuevo elemento.
+ *  3. extra: es un argumento opcional que contiene una cadena adicional de texto que se agregará al contenido de texto principal.
+ *
+ *  Si extra es null, no se agregará ninguna cadena adicional. La función crea un nuevo elemento HTML
+ *  con document.createElement(element) y le asigna el contenido de texto con p.textContent = string + extra
+ *  (o solo p.textContent = string si extra es null). Finalmente, agrega el elemento al documento con document.body.appendChild(p).
+ */
+function printDoc(element, string, extra)
+{
+  if (extra !== null)
+  {
     let p = document.createElement(element);
     p.textContent = string + extra;
     document.body.appendChild(p);
@@ -32,8 +47,8 @@ function printDoc(element, string, extra) {
  *  La función primero comprueba si el exponente es 0 y en ese caso devuelve 1. Luego, se inicializa
  *  una variable llamada "answer" con el valor de la base y una variable llamada "increment" con el valor de la base.
  *
- *  Luego, se realiza un bucle for que se ejecuta "exponent" veces. Dentro de este bucle for, hay otro bucle for que se ejecuta "base" veces.
- *  Cada vez que se ejecuta el bucle interior, la variable "answer" se actualiza sumándole "increment".
+ *  Luego, se realiza un bucle for que se ejecuta "exponent" veces. Dentro de este bucle for, hay otro bucle for
+ *  que se ejecuta "base" veces. Cada vez que se ejecuta el bucle interior, la variable "answer" se actualiza sumándole "increment".
  *
  *  Después de completar el bucle interior, la variable "increment" se actualiza con el valor actual de "answer".
  *
