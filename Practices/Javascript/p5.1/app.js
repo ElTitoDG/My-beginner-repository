@@ -1,32 +1,38 @@
 /*
  *  Crea una función que calcule la potencia pidiendo al usuario tanto la base como el exponente sin usar Math.pow()
 */
-
 //  Analiza valor de prompt() para convertirlo en entero
 function promptInt(string) {
   let input = prompt(string);
   return parseInt(input);
 }
 
-//Función que hace la potencia
-function toPower(base, exponent) {
-  let power = 1;
-  let res = 1;
-  for (i = 1; i <= exponent; i++) {
-    power = power + res;
-    for (i=1; i<=base; i++) {
-      res = res + base;
+  /*Solo funciona si a > 0 y b > 0 */
+//Función para hacer potencia
+function toPower(base , exponent)
+{
+    if (exponent == 0) return 1;
+
+    let answer = base;
+    let increment = base;
+
+    for (i = 1; i < exponent; i++)
+    {
+        for (j = 1; j < base; j++)
+        {
+          answer = answer + increment;
+          console.log("First loop: ", answer);
+        }
+      increment = answer;
+      console.log("Second Loop: ", increment)
     }
-  }
-  return power;
+
+    return answer;
 }
 
-//Declarando variables para la función
-let base = promptInt(" Input a base: ");
-let exponent = promptInt(" Input a exponent:  ");
+let base = promptInt("Input base: ");
+let exponent = promptInt("Input exponent: ");
 
-//Llamando a la función
-let ress = toPower(base, exponent);
+let res = toPower(base, exponent);
 
-//Enseñando resultado
-document.writeln("The result of the power is: ", ress);
+document.writeln("The final result: ", res);
