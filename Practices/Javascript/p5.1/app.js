@@ -7,7 +7,7 @@
  *  y muestra una ventana de diálogo en la que se pide al usuario que ingrese un valor.
  *  El valor ingresado se convierte a un número entero y se devuelve.
  */
-function promptInt(string)
+export function promptInt(string)
 {
   let input = prompt(string);
   return parseInt(input);
@@ -27,7 +27,7 @@ function promptInt(string)
  *  con document.createElement(element) y le asigna el contenido de texto con p.textContent = string + extra
  *  (o solo p.textContent = string si extra es null). Finalmente, agrega el elemento al documento con document.body.appendChild(p).
  */
-function printDoc(element, string, extra)
+export function printDoc(element, string, extra)
 {
   if (extra !== null)
   {
