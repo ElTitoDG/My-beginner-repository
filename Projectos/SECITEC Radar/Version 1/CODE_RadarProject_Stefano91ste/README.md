@@ -4,13 +4,13 @@
 
 Este código es para un sistema de radar que usa un servo motor y un sensor de distancia para medir la distancia de los objetos en su entorno.
 
-La biblioteca Servo.h es importada para usar el servo motor. Se declaran dos constantes, trigPin y echoPin, que son los pines utilizados para el trigger y el echo del sensor de distancia. La variable duration se utiliza para almacenar el tiempo que tarda en viajar el pulso del trigger y retornar al echo. La variable distinCM se usa para almacenar la distancia en centímetros.
+La biblioteca Servo.h es importada para usar el servo motor. Se declaran dos constantes, `trigPin` y `echoPin`, que son los pines utilizados para el trigger y el echo del sensor de distancia. La variable `duration` se utiliza para almacenar el tiempo que tarda en viajar el pulso del trigger y retornar al echo. La variable `distinCM` se usa para almacenar la distancia en centímetros.
 
-El objeto "radarServo" se define como un servo motor.
+El objeto `radarServo` se define como un servo motor.
 
-En la función setup(), se establecen los modos de los pines trigPin y echoPin. Se inicia la comunicación serial y se conecta el servo motor al pin 11.
+En la función `setup()`, se establecen los modos de los pines `trigPin` y `echoPin`. Se inicia la comunicación serial y se conecta el servo motor al pin 11.
 
-En la función loop(), se realiza un primer bucle que gira el servo desde 0 hasta 180 grados con un retardo de 50ms entre cada giro. En cada posición, se realiza una medición de distancia utilizando el sensor de distancia. Se envían los datos a la computadora a través de la comunicación serial con el formato "grados * distancia #".
+En la función `loop()`, se realiza un primer bucle que gira el servo desde 0 hasta 180 grados con un retardo de 50ms entre cada giro. En cada posición, se realiza una medición de distancia utilizando el sensor de distancia. Se envían los datos a la computadora a través de la comunicación serial con el formato "grados * distancia #".
 
 Luego, se realiza un segundo bucle que gira el servo desde 180 hasta 0 grados con un retardo de 25ms entre cada giro. En cada posición, se realiza una medición de distancia utilizando el sensor de distancia. Se envían los datos a la computadora a través de la comunicación serial con el formato "grados * distancia #".
 
