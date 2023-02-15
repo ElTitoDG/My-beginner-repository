@@ -4,7 +4,7 @@
 
 Este código es para un sistema de radar que usa un servo motor y un sensor de distancia para medir la distancia de los objetos en su entorno.
 
-La biblioteca Servo.h es importada para usar el servo motor. Se declaran dos constantes, `trigPin` y `echoPin`, que son los pines utilizados para el trigger y el echo del sensor de distancia. La variable `duration` se utiliza para almacenar el tiempo que tarda en viajar el pulso del trigger y retornar al echo. La variable `distinCM` se usa para almacenar la distancia en centímetros.
+La biblioteca `Servo.h` es importada para usar el servo motor. Se declaran dos constantes, `trigPin` y `echoPin`, que son los pines utilizados para el trigger y el echo del sensor de distancia. La variable `duration` se utiliza para almacenar el tiempo que tarda en viajar el pulso del trigger y retornar al echo. La variable `distinCM` se usa para almacenar la distancia en centímetros.
 
 El objeto `radarServo` se define como un servo motor.
 

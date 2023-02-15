@@ -1,5 +1,5 @@
 /*
- *  Crea una función que calcule la multiplicación sin usar el operardor *
+ *  Crea una función que muestre un menu
 */
 
 //  Analiza valor de prompt() para convertirlo en entero
@@ -8,23 +8,34 @@ function promptInt(string) {
   return parseInt(input);
 }
 
-// Función de multiplicación
-function mult(number, mult) {
-  let res = 0;
-
-  for (i=1; i<=mult; i++) {
-    res = res + number;
+// This function is bugged
+function printDoc(element, string, extra)
+{
+  if (extra == undefined)
+  {
+    let p = document.createElement(element);
+    p.textContent = string;
+    document.body.appendChild(p);
+  } else {
+    let p = document.createElement(element);
+    p.textContent = string + extra;
+    document.body.appendChild(p);
   }
-
-  return res;
 }
 
-// Establecemos los parametros
-let number = promptInt("Enter the multiplied: ");
-let multi = promptInt("Enter the multiplier: ");
+const days = [
+  "Lunes",
+  "Martes",
+  "Miercoles",
+  "Jueves",
+  "Viernes",
+  "Sabado",
+  "Domingo"
+];
 
-//Guardamos el resultado en una variable
-let final = mult(number, multi);
+let input = promptInt("Input days: ");
 
-//Imprimimos el resultado
-document.writeln("The result is: ", final);
+document.writeln("Days: ");
+for (i = 0; i<input; i++) {
+  printDoc("p", "", days[i]);
+}
