@@ -8,6 +8,7 @@ function promptInt(string) {
   return parseInt(input);
 }
 
+
 function printDoc(element, string, extra)
 {
   if (extra !== null)
@@ -29,10 +30,9 @@ function cuadraticEquation(a, b, c) {
   } else {
     let res1 = (-b + Math.sqrt(discriminant)) / 2*a;
     let res2 = (-b - Math.sqrt(discriminant)) / 2*a;
-    return `x1 = ${res1}, x2 = ${res2}`
+    let final_res = [res1, res2];
+    return final_res;
   }
-
-  
 }
 
 let x = promptInt("Introduce el valor de x: ");
@@ -42,4 +42,6 @@ let z = promptInt("Introduce el valor de z: ");
 let res = cuadraticEquation(x, y, z);
 
 console.log(res);
-document.writeln("Resultado: ", res);
+printDoc("p", "Result: ", "");
+printDoc("p", "x1 = ", res[0]);
+printDoc("p", "x2 = ", res[1]);

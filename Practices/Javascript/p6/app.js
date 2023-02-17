@@ -8,7 +8,7 @@ function promptInt(string) {
   return parseInt(input);
 }
 
-// This function is bugged
+// This function is bugged, only works if script tag is on body
 function printDoc(element, string, extra)
 {
   if (extra == undefined)
@@ -35,7 +35,11 @@ const days = [
 
 let input = promptInt("Input days: ");
 
-document.writeln("Days: ");
 for (i = 0; i<input; i++) {
-  printDoc("p", "", days[i]);
+  if (input > 7 || input < 1 || input == NaN) {
+    alert("Error, input a number between 0 and 7");
+    break;
+  } else {
+    printDoc("p", "", days[i]);
+  }
 }
