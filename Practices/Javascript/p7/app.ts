@@ -3,13 +3,13 @@
 */
 
 //  Analiza valor de prompt() para convertirlo en entero
-function promptInt(string) {
-  let input = prompt(string);
+function promptInt(string: string) {
+  let input: any = prompt(string);
   return parseInt(input);
 }
 
 
-function printDoc(element, string, extra)
+function printDoc(element: string, string: string, extra: any)
 {
   if (extra !== null)
   {
@@ -23,7 +23,7 @@ function printDoc(element, string, extra)
   }
 }
 
-function cuadraticEquation(a, b, c) {
+function cuadraticEquation(a: number, b: number, c: number) {
   const discriminant = Math.pow(b, 2) - 4 * a * c;
   if (discriminant < 0) {
     return "No existen soluciones reales"
