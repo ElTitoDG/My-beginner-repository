@@ -39,8 +39,10 @@ La empresa tendra varias franquicias en toda España
 
 ### Estructura web
 Partes de la web: 
-- Página de inicio
-- Sobre nosotros
-- Servicios
+- Página de inicio:
+    En GreenKeep creemos que estar rodeados de la naturaleza en los espacios donde pasamos más tiempo es un derecho inalienable, por eso pensamos que mantener estos espacios con el cuidado y la profesionalidad necesaria es obligatorio. Tener este tipo de espacios, ya sea en tu hogar, una zona común de tu urbanización o un parque público, ayuda a descansar y mejorar el estado de ánimo, aumentando la productividad y felicidad en un futuro.
+- Sobre nosotros:
+    GreenKeep nace de la idea de establecer una compañía en el sector que puede tener asociado un sello de calidad constate. Por eso contamos con los mejores profesionales de la industria. Tras la mala experiencia de nuestros fundadores con los servicios de mantenimiento de sus comunidades, decidieron fundar GreenKeep con el objetivo de establecer un estándar de calidad, complaciendo así a sus clientes. 
+- Servicios: 
 - Localizaciones
 - Contacto
