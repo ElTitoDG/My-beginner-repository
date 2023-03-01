@@ -20,7 +20,7 @@ En GreenKeep, nos esforzamos por brindar servicios de alta calidad y satisfacci�
 
 Así que si necesita servicios de mantenimiento para su urbanización, no dude en ponerse en contacto con GreenKeep. Estamos aquí para ayudarlo a mantener su comunidad en excelentes condiciones.
 
-Resumen: 
+**Resumen**: 
     GreenKeep es la empresa líder en servicios de mantenimiento de urbanizaciones en España. Ofrecemos una amplia gama de servicios de alta calidad, incluyendo el mantenimiento y cuidado de áreas verdes y jardines, la limpieza y recogida de basura, el control de plagas y la fumigación, la reparación y mantenimiento de estructuras y mobiliario urbano, la vigilancia y seguridad, y soluciones sostenibles y ecológicas. Trabajamos en estrecha colaboración con administradores y residentes para asegurar que se cumplan todas las necesidades y expectativas. Contáctenos hoy para obtener más información sobre cómo podemos mantener su comunidad en excelentes condiciones.
 
 - Mantenimiento de urbanizaciones
