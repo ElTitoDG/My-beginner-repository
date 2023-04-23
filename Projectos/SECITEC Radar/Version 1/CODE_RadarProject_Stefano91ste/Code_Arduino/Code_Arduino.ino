@@ -2,6 +2,7 @@
 
 const int trigPin = 9;
 const int echoPin = 10;
+const int servo = 11;
 
 long duration;
 int distinCM;
@@ -15,6 +16,7 @@ void setup()
   Serial.begin(9600);
   radarServo.attach(11);
 }
+
 void loop() 
 {
   for(int i=0;i<=180;i++)

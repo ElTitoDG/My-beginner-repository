@@ -25,7 +25,7 @@ void setup()
   //println(Serial.list());
   
   //String portName = Serial.list()[0];
-  String portName = "/dev/tty.usbmodem1101";
+  String portName = "/dev/cu.usbmodem101";
   port = new Serial(this, portName, 9600);
   
   //port = new Serial(this,"COM4", 9600);

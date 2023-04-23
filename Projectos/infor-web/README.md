@@ -9,6 +9,13 @@ La empresa tendra varias franquicias en toda España
 ### Servicios
 
 - Mantenimiento de urbanizaciones
+
+GreenKeep ofrece un servicio integral de mantenimiento de urbanizaciones en toda España a través de su red de oficinas y licenciados. Los servicios de mantenimiento de urbanizaciones incluyen el cuidado y mantenimiento de áreas verdes, jardines y espacios públicos, así como la limpieza y recogida de basura, el control de plagas y la fumigación, la reparación y mantenimiento de estructuras y mobiliario urbano, la vigilancia y seguridad, y mucho más.
+
+Además, GreenKeep cuenta con un equipo de expertos en medio ambiente capacitados para ofrecer soluciones sostenibles y ecológicas para el mantenimiento de las urbanizaciones. Esto incluye la utilización de tecnologías limpias y la implementación de prácticas de conservación del agua y energía.
+
+GreenKeep se esfuerza por brindar servicios de alta calidad y satisfacción al cliente. Trabajamos en estrecha colaboración con los administradores y residentes de cada urbanización para asegurarnos de que se cumplan todas las necesidades y expectativas. Si necesita servicios de mantenimiento para su urbanización, no dude en ponerse en contacto con GreenKeep. Estamos aquí para ayudarlo a mantener su comunidad en excelentes condiciones.
+
     - Poda: 
         - Arboles
         - Arbustos
@@ -23,6 +30,17 @@ La empresa tendra varias franquicias en toda España
         - Cloración
         - Mantenimiento diaro y semanal
 - Mantenimiento de espacios públicos
+
+GreenKeep se dedica a ofrecer servicios de mantenimiento de espacios públicos en toda España, mediante su equipo de profesionales altamente cualificados y la red de oficinas y licenciados.
+
+Nos encargamos de la limpieza, recolección de basura, control de plagas y fumigación, reparación y mantenimiento de estructuras y mobiliario urbano, vigilancia y seguridad, y más, todo ello con el fin de mantener los espacios públicos en excelentes condiciones.
+
+En GreenKeep estamos comprometidos con el medio ambiente y ofrecemos soluciones sostenibles y ecológicas para el mantenimiento de los espacios públicos, mediante la implementación de prácticas de conservación del agua y la energía y la utilización de tecnologías limpias.
+
+Nuestro equipo trabaja en estrecha colaboración con las autoridades locales y otros actores relevantes para asegurar el cumplimiento de todas las normativas y requisitos necesarios para el mantenimiento de los espacios públicos.
+
+Si necesita servicios de mantenimiento para un espacio público, no dude en ponerse en contacto con GreenKeep. Estamos aquí para ayudarle a mantener su espacio público en óptimas condiciones y ofrecerle soluciones sostenibles y de alta calidad.
+
     - Poda: 
         - Arboles
         - Arbustos
@@ -33,8 +51,20 @@ La empresa tendra varias franquicias en toda España
         - Palmeras
         - 
 
-- Mantenimiento de fincas privadas
-- Asesoria y restauración de fincas abandonadas
+- Mantenimiento de fincas privadas:
+
+En GreenKeep, también ofrecemos servicios de mantenimiento y cuidado para fincas privadas. Estos servicios están diseñados para satisfacer las necesidades específicas de cada propiedad, incluyendo el mantenimiento de áreas verdes y jardines, la limpieza y recogida de basura, el control de plagas y la fumigación, la reparación y mantenimiento de estructuras y mobiliario exterior, y la vigilancia y seguridad.
+
+Nos esforzamos por ofrecer soluciones sostenibles y ecológicas para el mantenimiento de las fincas privadas, tales como la utilización de tecnologías limpias y la implementación de prácticas de conservación del agua y energía.
+
+En GreenKeep, trabajamos en estrecha colaboración con los propietarios para asegurarnos de que se cumplan todas las necesidades y expectativas. Nuestros profesionales altamente capacitados y comprometidos con la calidad del servicio, garantizan que su propiedad se mantendrá en las mejores condiciones posibles.
+
+- Asesoria y restauración de fincas abandonadas: 
+
+El servicio de asesoría y restauración de GreenKeep tiene como objetivo brindar soluciones para la gestión y recuperación de fincas abandonadas. A través de un equipo especializado, la empresa ofrece servicios de consultoría para evaluar el estado actual de la propiedad y desarrollar un plan de restauración que incluye la limpieza, la reparación de estructuras y el cuidado del medio ambiente.
+
+GreenKeep también ofrece servicios de gestión de propiedades, que incluyen la administración de fincas privadas y la supervisión de trabajos de mantenimiento y reparación. Además, la empresa se especializa en la creación de espacios verdes y en el diseño de jardines personalizados que se adapten a las necesidades y preferencias de cada cliente. Con estos servicios, GreenKeep se compromete a restaurar y mantener las propiedades privadas, proporcionando soluciones personalizadas y efectivas para cada necesidad específica.
+
 - Diseño de espacios verdes
 
 
