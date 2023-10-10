@@ -1,39 +1,37 @@
 #include <stdio.h>
 
+int factorial(int numero)
+{
+
+    int resultado = 1;
+    int i;
+
+    for (i = 1; i <= numero; i++)
+        resultado = resultado * i;
+
+    return resultado;
+}
+
+
 int main()
 {
 
-    int numero;
-    int suma, contador;
-    float media;
+    int numero, i;
+    int resultado;
 
 
-    suma = 0;
-    contador = 0;
 
     do
     {
-        printf("Introduce un numero entero: ");
+        printf("Introduce un numero para calcular el factorial: ");
         scanf("%d", &numero);
 
-        if (numero >= 0)
-        {
-            suma += numero;
-            contador++;
-        }
-    } while (numero >= 0);
+    } while (numero < 0);
 
-    printf("Suma: %d || Contador: %d\n", suma, contador);
+    resultado = factorial(numero);
 
-    if (contador > 0)
-    {
-        media = (float)suma/contador;
-    }
-    else {
-        media = 0;
-    }
+    printf("%d! = %d\n", numero, resultado);
 
-    printf("Media: %f\n", media);
 
 
     return 0;
