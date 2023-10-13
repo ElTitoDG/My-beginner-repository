@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Drawing color (0, 51, 255) to blue.
+// Drawing color (255, 255, 255) to white.
+
 int main() {
 
   int ysize = 300;
-  int xsize = 300;
+  int xsize = 500;
 
   int franjas, lineas, linea;
   char c;
@@ -19,23 +22,21 @@ int main() {
   printf("%d lineas por franja\n", lineas);
 
   // Open a new window for drawing.
-  gfx_open(xsize, ysize, "Rico perez");
+  gfx_open(xsize, ysize, "Rico perez-1");
 
-  // Drawing color (0, 51, 255) to blue.
-  // Drawing color (255, 255, 255) to white.
-
-  // Draw a line and wait
-  for (int y = 1; y < franjas; y++) {
+  linea = 1;
+  // Solution 1 (working)
+  for (int y = 1; y < ysize; y++) {
 
     if ((y % 2) == 0) {
-      gfx_color(0, 51, 255);
-    } else {
       gfx_color(255, 255, 255);
+    } else {
+      gfx_color(0, 51, 255);
     }
 
     for (int j = 1; j <= lineas; j++) {
-      gfx_line(1, linea, xsize, linea);
       linea++;
+      gfx_line(1, linea, xsize, linea);
     }
 
     c = gfx_wait();
