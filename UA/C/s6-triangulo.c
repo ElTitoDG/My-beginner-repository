@@ -23,7 +23,6 @@ int main() {
   case 2:
     h = input();
     triSD(h);
-    /** TODO **/
     printf("-------FIN-------\n");
     break;
   case 3:
