@@ -3,7 +3,7 @@
 
 // Prototipos
 void leerParametros(char *sim, char *opt, int *lado); // [X]
-void dibujar(char sim, char opt, int size);           // [ ]
+void dibujar(char sim, char opt, int size);           // [X]
 
 // Main
 
@@ -63,7 +63,15 @@ void dibujar(char sim, char opt, int size) {
       printf("\n");
     }
   } else if (opt == 'V') {
-    printf("Test\n");
-    printf("Test\n");
+    for (i = 1; i <= size; i++) {
+      for (j = 1; j <= size; j++) {
+        if (i == 1 || i == size || j == 1 || j == size) {
+          printf("%c", sim);
+        } else {
+          printf(" ");
+        }
+      }
+      printf("\n");
+    }
   }
 }
