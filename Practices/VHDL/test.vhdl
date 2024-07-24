@@ -1,15 +1,17 @@
-library IEEE;
-use IEEE.std_logic_1164.all;
+ --  Hello world program.
+ use std.textio.all; --  Imports the standard textio package.
 
-entity test is
-  port (
-    a: in std_logic;
-    b: in std_logic;
-    y: out std_logic
-);
-end test;
+ --  Defines a design entity, without any ports.
+ entity hello_world is
+ end hello_world;
 
-architecture Behavioral of test is
-begin
-  y <= a and b;
-end Behavioral;
+ architecture behaviour of hello_world is
+ begin
+    process
+       variable l : line;
+    begin
+       write (l, String'("Hello world!"));
+       writeline (output, l);
+       wait;
+    end process;
+ end behaviour;
