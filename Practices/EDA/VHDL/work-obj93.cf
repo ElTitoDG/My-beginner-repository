@@ -1,0 +1,7 @@
+v 4
+file . "ha_testbench.vhdl" "3a7551f0456624292700f81ba78ff02c676895f9" "20240826192217.531":
+  entity ha_testbench at 1( 0) + 0 on 13;
+  architecture test of ha_testbench at 7( 80) + 0 on 14;
+file . "ha.vhdl" "49f92765f9703c92a23e344901687ce549cdab6d" "20240826192211.318":
+  entity ha at 1( 0) + 0 on 11;
+  architecture behave of ha at 13( 190) + 0 on 12;

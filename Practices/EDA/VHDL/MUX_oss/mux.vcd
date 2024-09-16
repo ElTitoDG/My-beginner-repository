@@ -1,0 +1,52 @@
+$date
+  Fri Aug 30 19:50:12 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_testbench $end
+$var reg 8 ! a_test[7:0] $end
+$var reg 8 " b_test[7:0] $end
+$var reg 8 # output_test[7:0] $end
+$var reg 2 $ sel_test[1:0] $end
+$scope module uut $end
+$var reg 8 % a[7:0] $end
+$var reg 8 & b[7:0] $end
+$var reg 2 ' sel[1:0] $end
+$var reg 8 ( output[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b10101010 !
+b11001100 "
+b00000000 #
+b00 $
+b10101010 %
+b11001100 &
+b00 '
+b00000000 (
+#10000000
+b10101010 #
+b01 $
+b01 '
+b10101010 (
+#20000000
+b11001100 #
+b10 $
+b10 '
+b11001100 (
+#30000000
+b11111111 #
+b11 $
+b11 '
+b11111111 (
+#40000000
+#60000000
