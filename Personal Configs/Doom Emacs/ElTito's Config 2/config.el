@@ -4,10 +4,26 @@
 ;; sync' after modifying this file!
 
 
+(defun center-emacs-frame ()
+  "Center the Emacs frame on the screen."
+  (interactive)
+  (let* ((frame (selected-frame))
+         (frame-width (frame-pixel-width frame))
+         (frame-height (frame-pixel-height frame))
+         (display-width (display-pixel-width))
+         (display-height (display-pixel-height)))
+    (set-frame-position frame
+                        (/ (- display-width frame-width) 2)
+                        (/ (- display-height frame-height) 2))))
+
+;; Apply this function when Doom Emacs starts
+(add-hook 'emacs-startup-hook 'center-emacs-frame)
+
+
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "ElTItoDG"
-      user-mail-address "julianhinojosagil@gmail.com")
+;; (setq user-full-name "John Doe"
+;;       user-mail-address "john@doe.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -15,14 +31,14 @@
 ;; - `doom-variable-pitch-font' -- a non-monospace font (where applicable)
 ;; - `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
-;; - `doom-unicode-font' -- for unicode glyphs
+;; - `doom-symbol-font' -- for symbols
 ;; - `doom-serif-font' -- for the `fixed-pitch-serif' face
 ;;
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Iosevka Fixed Extended" :size 15)
-      doom-variable-pitch-font (font-spec :family "Iosevka Fixed Extended" :size 15))
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14 :weight 'Light)
+      doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -32,7 +48,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-tokyo-night)
+(setq doom-theme 'doom-xcode)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -40,8 +56,8 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-;;(setq org-directory "~/org/")
-
+(setq org-directory "~/org/")
+(setq fancy-splash-image "~/.doom.d/apple_xcode_logo_icon.png")
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -75,28 +91,18 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq fancy-splash-image "~/.doom.d/doom-emacs-color.png")
+(add-to-list 'initial-frame-alist '(width . 200))
+(add-to-list 'initial-frame-alist '(height . 55))
 
-;;(add-to-list 'load-path "~/.doom.d/")
-;;(load "org-bullets.el")
+(load! "lisp/tl-verilog-mode.el")
+(load! "lisp/verilog-mode.el")
+(global-set-key (kbd "C-c v") 'treemacs-select-window)
 
-;;(after! rustic
-  ;;(setq rustic-lsp-server 'rls))
+(use-package ellama
+  :init
+  (setopt ellama-language "English")
+  (require 'llm-ollama)
+  (setopt ellama-provider
+		  (make-llm-ollama
+		   :chat-model "codegemma:latest" :embedding-model "codegemma:latest")))
 
-(use-package! org-superstar
-  :hook (org-mode . org-superstar-mode)
-  :config
-  (setq org-superstar-headline-bullets-list '("♚" "♛" "♜" "♝" "♞" "♔" "♕" "♖" "♗" "♘" "♙")
-        org-superstar-special-todo-items t))
-
-
-;;(after! org
-  ;;(setq org-directory "~/Documents/org/")
-  ;;(setq org-agenda-files '("~/Documents/org/agenda.org"))
-  ;;(setq org-log-done 'time)
-  ;;(setq org-log-done 'note)
-  ;;(setq org-todo-keywords '((sequence "TODO(t)" "PROJ(p)" "VIDEO(v)" "WAIT(w)"
-  ;;                                    "|" "DONE(d)" "CANCELLED(c)" )))
-  ;;(require 'org-bullets)
-  ;;(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-;;)
