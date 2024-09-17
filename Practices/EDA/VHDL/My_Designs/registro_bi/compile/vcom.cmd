@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/registro_bi/compile -s c:/My_Designs/registro_bi/library.cfg -j c:/My_Designs/registro_bi/projlib.cfg -work registro_bi -O3 -e 100 -work registro_bi -2002 c:/My_Designs/registro_bi/src/registro_bi.vhd c:/My_Designs/registro_bi/src/registro_bi_tb.vhd 

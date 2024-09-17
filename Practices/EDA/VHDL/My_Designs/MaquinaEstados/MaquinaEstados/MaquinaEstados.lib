@@ -1,0 +1,36 @@
+timestamp=1725659820350
+
+[~A]
+ModifyID=24
+Version=74
+
+[~MFT]
+0=4|0MaquinaEstados.mgf|25540|21515
+1=4|1MaquinaEstados.mgf|53068|51929
+3=4|3MaquinaEstados.mgf|29113|28219
+
+[maquinaestados]
+A/maquinaestadosarch=A/MaquinaEstadosArch 21|../src/MaquinaEstados.vhd|13|1*51929
+BinW64/maquinaestadosarch=3*28219
+I=0*600
+I/maquinaestadosarch=I/MaquinaEstadosArch 0*25315
+M=11|2|vf5|1725656363919|../src/MaquinaEstados.vhd|0*214*0x358b37adcd6b269d1a5601e13428a8b0f6c11107|0*507*0x23b75c12e3e89f2ef000564498faa8c2
+M/maquinaestadosarch=M/MaquinaEstadosArch 21|2|vf5|1725659820290|../src/MaquinaEstados.vhd|0*806*0xbd96ce16a607bf17a42541066a8a02dd6d6cbc74|0*1801*0x20116f55b147878295aeff36dce7fc50
+R=../src/MaquinaEstados.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|39500e8421cccaf2e5bcbf4a830013ee0b2f6e0c0e82e270bb66bee1d5d5f3402e3e5be4c6bed97f3e63a695e8ad0ede
+Version/maquinaestadosarch=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|39500e8421cccaf2e5bcbf4a830013ee16b0028f5ea1a572cd7dc974c6a24d1c98794dbf7a8d7a453ffe16608368def0
+
+[tb_maquinaestados]
+A/tb_maquinaestados_arch=A/tb_MaquinaEstados_arch 21|../src/tb_MaquinaEstados.vhd|7|1*53068
+BinW64/tb_maquinaestados_arch=3*29113
+I=0*2581
+I/tb_maquinaestados_arch=I/tb_MaquinaEstados_arch 0*25540
+M=11|2|vf5|1725656698089|../src/tb_MaquinaEstados.vhd|0*2281*0x8ab3cf48f115f3bf825e74a56f5f29f0249d9aa0|0*2482*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_maquinaestados_arch=M/tb_MaquinaEstados_arch 21|2|vf5|1725659820340|../src/tb_MaquinaEstados.vhd|0*23806*0x322f47fcdd2dc575b44f0ec130cec8c3f7090e6f|0*24916*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_MaquinaEstados.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|2197a31ca0c2c551a797be7857bb629849b1b2e95776a3623b015df6ed1002f91005ceb3f4ae07a8a655e0c367ddfac6
+Version/tb_maquinaestados_arch=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|2197a31ca0c2c551a797be7857bb6298dcff2a596ff8b4bfd29f41f807fe60ba7d25a5662badb8ea1cfeac6e147c5cd5
+
+[~U]
+maquinaestados=MaquinaEstados 11|0*0|
+tb_maquinaestados=tb_MaquinaEstados 11|0*2141|

@@ -1,0 +1,5 @@
+i<>.\src\multiplexor.vhd
+i<>.\src\Unidad_Aritmetica.vhd
+i<>.\src\Unidad_Logica.vhd
+i<>.\src\ALU.vhd
+i<>.\src\ALU_TB.vhd

@@ -1,0 +1,36 @@
+timestamp=1725528996409
+
+[~A]
+ModifyID=8
+Version=74
+
+[~MFT]
+0=8|0registroMaNoTaS.mgf|10894|5978
+1=2|1registroMaNoTaS.mgf|15095|13368
+3=2|3registroMaNoTaS.mgf|6946|5876
+
+[registromanotas]
+A/comportamiento=A/Comportamiento 21|../src/registroMaNoTaS.vhd|18|1*15095
+BinW64/comportamiento=3*6946
+I=0*2424
+I/comportamiento=I/Comportamiento 0*10894
+M=11|2|vf5|1725527214613|../src/registroMaNoTaS.vhd|0*1850*0x1caf4c5d8b7de5ded7ed7d4ace07f3d7b1e167b3|0*2329*0x23b75c12e3e89f2ef000564498faa8c2
+M/comportamiento=M/Comportamiento 21|2|vf5|1725528996355|../src/registroMaNoTaS.vhd|0*10085*0x2ca6163d7f69b23615687467159499fb34c43d08|0*10781*0x20116f55b147878295aeff36dce7fc50
+R=../src/registroMaNoTaS.vhd|6
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|f743601c477dc2ba951fe92f2d7c8aa0361851970c6dea378400b015a154d5c3ddbd5de3192129fbadbf8ecfa805a12f
+Version/comportamiento=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|1e811174f5a5daf334086a7708cff6394c265d82e8362643f5f080e46d562001587bec0a12df2fffb348e1b4f0e19e88
+
+[tb_registromanotas]
+A/testbench=21|../src/registro_tb.vhd|9|1*13368
+BinW64/testbench=3*5876
+I=0*4323
+I/testbench=0*9743
+M=11|2|vf5|1725527687326|../src/registro_tb.vhd|0*3968*0x517951c4a034bf99c94e485ab319b2cf98b195d9|0*4229*0x23b75c12e3e89f2ef000564498faa8c2
+M/testbench=21|2|vf5|1725528526269|../src/registro_tb.vhd|0*7233*0xbca6a30cf7e5129f60ec0410b64093dd32f3fa0c|0*8990*0x20116f55b147878295aeff36dce7fc50
+R=../src/registro_tb.vhd|6
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|17ac282b48da0dac4e3706c1a6d14e3c9c539a6fb76dd98eca0d3e150b6500547b1ce66a5c161f2ea84eee200ffb6752
+Version/testbench=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d79131a3321131c425816fcbc302f85b29835
+
+[~U]
+registromanotas=registroMaNoTaS 11|0*1601|
+tb_registromanotas=tb_registroMaNoTaS 11|0*3826|

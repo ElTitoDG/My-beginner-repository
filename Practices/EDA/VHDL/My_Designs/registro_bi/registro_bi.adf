@@ -1,0 +1,28 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=registro_bi
+[Library]
+registro_bi=.\registro_bi\registro_bi.lib
+[$LibMap$]
+registro_bi=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/registro_bi.vhd=-1
+/registro_bi_tb.vhd=-1
+[Files.Data]
+.\src\registro_bi.vhd=VHDL Source Code
+.\src\registro_bi_tb.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=registro_bi|comp_registro_bi|0 registro_bi_tb|tb|0 tb_registro_bi|testbench|0
+ShowHide=ShowTopLevel
+Selected=

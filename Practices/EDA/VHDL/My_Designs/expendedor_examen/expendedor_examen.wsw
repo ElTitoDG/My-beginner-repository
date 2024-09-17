@@ -1,0 +1,9 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\expendedor_examen.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\tb_expendedor_examenes.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\compile_and_test.do|]
+TemplateId=6
+tab=lu

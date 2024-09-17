@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/mux2a1/compile -s c:/My_Designs/mux2a1/library.cfg -j c:/My_Designs/mux2a1/projlib.cfg -work mux2a1 -O3 -e 100 -work mux2a1 -2002 c:/My_Designs/mux2a1/src/mux.vhd c:/My_Designs/mux2a1/src/mux_testbench.vhd 

@@ -1,0 +1,30 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=expendedor_examen
+[Library]
+expendedor_examen=.\expendedor_examen\expendedor_examen.lib
+[$LibMap$]
+expendedor_examen=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/expendedor_examen.vhd=-1
+/tb_expendedor_examenes.vhd=-1
+/compile_and_test.do=-1
+[Files.Data]
+.\src\expendedor_examen.vhd=VHDL Source Code
+.\src\tb_expendedor_examenes.vhd=VHDL Source Code
+.\src\compile_and_test.do=Macro
+[HierarchyViewer]
+HierarchyInformation=tb_expendedor_examen|testbench|0
+ShowHide=ShowTopLevel
+Selected=

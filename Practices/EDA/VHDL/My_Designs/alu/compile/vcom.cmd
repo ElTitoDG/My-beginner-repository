@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/alu/compile -s c:/My_Designs/alu/library.cfg -j c:/My_Designs/alu/projlib.cfg -work alu -O3 -e 100 -work alu -2002 c:/My_Designs/alu/src/multiplexor.vhd c:/My_Designs/alu/src/Unidad_Aritmetica.vhd c:/My_Designs/alu/src/Unidad_Logica.vhd c:/My_Designs/alu/src/ALU.vhd c:/My_Designs/alu/src/ALU_TB.vhd 

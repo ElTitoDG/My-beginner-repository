@@ -1,0 +1,304 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:55 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examenes/tb_cent5
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_cent10 
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_cent25
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_Nestado
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_clk
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_reset
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_saleExamen
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_dev5 
+# VSIM: No objects matching.
+wave /tb_expendedor_examenes/tb_dev10
+# VSIM: No objects matching.
+run 90 ns
+# KERNEL: stopped at time: 90 ns
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:55 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examen/tb_cent5
+wave /tb_expendedor_examen/tb_cent10 
+wave /tb_expendedor_examen/tb_cent25
+wave /tb_expendedor_examen/tb_Nestado
+wave /tb_expendedor_examen/tb_clk
+wave /tb_expendedor_examen/tb_reset
+wave /tb_expendedor_examen/tb_saleExamen
+wave /tb_expendedor_examen/tb_dev5 
+wave /tb_expendedor_examen/tb_dev10
+run 90 ns
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+# KERNEL: stopped at time: 90 ns
+endsim
+# VSIM: Simulation has finished.
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:56 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examen/tb_cent5
+wave /tb_expendedor_examen/tb_cent10 
+wave /tb_expendedor_examen/tb_cent25
+wave /tb_expendedor_examen/tb_Nestado
+wave /tb_expendedor_examen/tb_clk
+wave /tb_expendedor_examen/tb_reset
+wave /tb_expendedor_examen/tb_saleExamen
+wave /tb_expendedor_examen/tb_dev5 
+wave /tb_expendedor_examen/tb_dev10
+run 150 ns
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+# KERNEL: stopped at time: 150 ns
+endsim
+# VSIM: Simulation has finished.
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:56 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examen/tb_cent5
+wave /tb_expendedor_examen/tb_cent10 
+wave /tb_expendedor_examen/tb_cent25
+wave /tb_expendedor_examen/tb_Nestado
+wave /tb_expendedor_examen/tb_clk
+wave /tb_expendedor_examen/tb_reset
+wave /tb_expendedor_examen/tb_saleExamen
+wave /tb_expendedor_examen/tb_dev5 
+wave /tb_expendedor_examen/tb_dev10
+run 250 ns
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:56 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examen/tb_cent5
+wave /tb_expendedor_examen/tb_cent10 
+wave /tb_expendedor_examen/tb_cent25
+wave /tb_expendedor_examen/tb_Nestado
+wave /tb_expendedor_examen/tb_clk
+wave /tb_expendedor_examen/tb_reset
+wave /tb_expendedor_examen/tb_saleExamen
+wave /tb_expendedor_examen/tb_dev5 
+wave /tb_expendedor_examen/tb_dev10
+run 450 ns
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+# KERNEL: stopped at time: 450 ns
+endsim
+# VSIM: Simulation has finished.
+runscript -do "C:/My_Designs/expendedor_examen/src/compile_and_test.do"
+acom -O3 -e 100 -work expendedor_examen -2002  $dsn/src/expendedor_examen.vhd $dsn/src/tb_expendedor_examenes.vhd
+# Compile Entity "expendedor_examen"
+# Compile Architecture "maquinaEstadoFinita" of Entity "expendedor_examen"
+# Compile Entity "tb_expendedor_examen"
+# Compile Architecture "testbench" of Entity "tb_expendedor_examen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+tb_expendedor_examen tb_expendedor_examen testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6471 kB (elbread=427 elab2=5905 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\expendedor_examen\src\wave.asdb
+#  10:56 PM, Tuesday, September 10, 2024
+#  Simulation has been initialized
+
+wave
+wave /tb_expendedor_examen/tb_cent5
+wave /tb_expendedor_examen/tb_cent10 
+wave /tb_expendedor_examen/tb_cent25
+wave /tb_expendedor_examen/tb_Nestado
+wave /tb_expendedor_examen/tb_clk
+wave /tb_expendedor_examen/tb_reset
+wave /tb_expendedor_examen/tb_saleExamen
+wave /tb_expendedor_examen/tb_dev5 
+wave /tb_expendedor_examen/tb_dev10
+run 280 ns
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/expendedor_examen/src/wave.asdb'.
+# KERNEL: stopped at time: 280 ns
+endsim
+# VSIM: Simulation has finished.
