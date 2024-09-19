@@ -1,1 +1,0 @@
--w -d c:/My_Designs/MaquinaEstados/compile -s c:/My_Designs/MaquinaEstados/library.cfg -j c:/My_Designs/MaquinaEstados/projlib.cfg -work MaquinaEstados -O3 -e 100 -work MaquinaEstados -2002 c:/My_Designs/MaquinaEstados/src/MaquinaEstados.vhd c:/My_Designs/MaquinaEstados/src/tb_MaquinaEstados.vhd 

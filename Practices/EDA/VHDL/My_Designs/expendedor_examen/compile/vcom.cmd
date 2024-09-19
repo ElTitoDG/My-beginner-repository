@@ -1,1 +1,0 @@
--w -d c:/My_Designs/expendedor_examen/compile -s c:/My_Designs/expendedor_examen/library.cfg -j c:/My_Designs/expendedor_examen/projlib.cfg -work expendedor_examen -O3 -e 100 -work expendedor_examen -2002 c:/My_Designs/expendedor_examen/src/expendedor_examen.vhd c:/My_Designs/expendedor_examen/src/tb_expendedor_examenes.vhd 
