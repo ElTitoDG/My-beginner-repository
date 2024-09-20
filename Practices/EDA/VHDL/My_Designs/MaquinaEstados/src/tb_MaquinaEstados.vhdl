@@ -33,42 +33,45 @@ begin
     -- Generador de reloj
     clk_process : process
     begin
-        tb_clk <= '0';
-        wait for CLK_PERIOD/2;
-        tb_clk <= '1';
-        wait for CLK_PERIOD/2;
+        loop
+            tb_clk <= '0';
+            wait for CLK_PERIOD/2;
+            tb_clk <= '1';
+            wait for CLK_PERIOD/2;
+        end loop;
     end process;
 
-    -- Proceso para la secuencia de estímulos
+    -- Proceso para la secuencia de estÃ­mulos
     stim_process: process
     begin
-        -- Reset de la máquina de estados
+        -- Reset de la mÃ¡quina de estados
         tb_resetHigh <= '1';
         wait for 10 ns;
         tb_resetHigh <= '0';
         wait for 10 ns;
 
-        -- Secuencia para alcanzar E2 (donde la salida será '1')
-        tb_entrada <= '1';	-- Pasar de E0 a E1
+        -- Secuencia para alcanzar E2 (donde la salida serÃ¡ '1')
+        tb_entrada <= '1';    -- Pasar de E0 a E1
         wait for 20 ns;
-		
-		-- En este momento la máquina debe estar en E2 y la salida debe ser '1'
-        assert tb_salida = '1' report "Error en la salida: debería ser '1' en E2 con entrada '1'" severity error;
+        
+        -- En este momento la mÃ¡quina debe estar en E2 y la salida debe ser '1'
+        assert tb_salida = '1' report "Error en la salida: deberÃ­a ser '1' en E2 con entrada '1'" severity error;
 
-        tb_entrada <= '0';	-- Pasar de E2 a E4
+        tb_entrada <= '0';    -- Pasar de E2 a E4
         wait for 10 ns;
-		
-		tb_entrada <= '1';	-- Pasar de E4 a E1	
+ 		
+        tb_entrada <= '1';    -- Pasar de E4 a E1	
         wait for 20 ns;
 
         -- Esperar un ciclo de reloj adicional para que la salida se actualice
         wait for CLK_PERIOD;
 
-        -- Continuar la simulación
+        -- Continuar la simulaciÃ³n
         tb_entrada <= '0';   -- Pasar de E2 a E4 (la salida debe regresar a '0')
         wait for 10 ns;
         
-        assert tb_salida = '0' report "Error en la salida: debería ser '0' después de E2" severity error;
+        assert tb_salida = '1' report "Error en la salida: deberÃ­a ser '1' en E2 con entrada '1'" severity error;
+        assert tb_salida = '0' report "Error en la salida: deberÃ­a ser '0' despuÃ©s de E2" severity error;
 
         wait;
     end process;
