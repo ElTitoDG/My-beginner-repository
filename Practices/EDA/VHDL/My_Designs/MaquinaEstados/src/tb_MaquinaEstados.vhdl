@@ -73,7 +73,7 @@ begin
         assert tb_salida = '1' report "Error en la salida: debería ser '1' en E2 con entrada '1'" severity error;
         assert tb_salida = '0' report "Error en la salida: debería ser '0' después de E2" severity error;
 
-        wait;
+        wait for 10 ns;
     end process;
 
 end tb_MaquinaEstados_arch;

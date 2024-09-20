@@ -1,10 +1,10 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity mux_testbench is
-end mux_testbench;
+entity tb_mux is
+end tb_mux;
 
-architecture Test of mux_testbench is
+architecture Test of tb_mux is
     component mux
         port (
             a, b: IN std_logic_vector (7 DOWNTO 0);

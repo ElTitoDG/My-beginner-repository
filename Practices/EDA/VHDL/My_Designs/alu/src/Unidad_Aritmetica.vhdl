@@ -43,10 +43,10 @@ begin
                 for i in 0 to 7 loop
                     acarreo(i+1) := (A(i) and B(i)) or
                                     (A(i) and acarreo(i)) or
-                                    (B(i) and acarreo(i)); -- operaciones l�gicas sobre std_logic
+                                    (B(i) and acarreo(i)); -- operaciones logicas sobre std_logic
                 end loop;
                 CarryOut <= acarreo(8);
-                salidaUA <= std_logic_vector(unsigned(A) + unsigned(B) + unsigned(CarryIn & "0000000"));
+                salidaUA <= std_logic_vector(unsigned(A) + unsigned(B) + unsigned(CarryIn & "0000000")); -- bug here
         end case;
     end process;
 end Comp_Aritm;

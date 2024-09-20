@@ -7,7 +7,7 @@ entity tb_registroMaNoTaS is
 end tb_registroMaNoTaS;
 
 architecture testbench of tb_registroMaNoTaS is
-    -- Señales para conectar al DUT (Device Under Test - Dispositivo bajo prueba)
+    -- Seï¿½ales para conectar al DUT (Device Under Test - Dispositivo bajo prueba)
     signal tb_SelectReg : std_logic_vector(1 downto 0);
     signal tb_LoadReg : std_logic;
     signal tb_SelectedReg : std_logic;
@@ -35,7 +35,7 @@ begin
     -- Proceso del reloj
     clk_process : process
     begin
-        while now < 200 ns loop  -- Extiende el tiempo de simulación para abarcar los 4 registros
+        while now < 200 ns loop  -- Extiende el tiempo de simulaciï¿½n para abarcar los 4 registros
             tb_clk <= '0';
             wait for clk_period / 2;
             tb_clk <= '1';
@@ -44,7 +44,7 @@ begin
         wait;
     end process;
 
-    -- Proceso de estímulos
+    -- Proceso de estï¿½mulos
     stimulus : process
     begin
         -- Resetear el sistema
@@ -112,7 +112,7 @@ begin
         tb_SelectedReg <= '0';
         wait for clk_period;
 
-        -- Finalizar simulación después de leer y escribir en los 4 registros
+        -- Finalizar simulaciï¿½n despuï¿½s de leer y escribir en los 4 registros
         wait for 50 ns;
         wait;
     end process;

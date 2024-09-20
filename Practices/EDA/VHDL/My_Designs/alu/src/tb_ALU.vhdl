@@ -6,7 +6,7 @@ entity tb_ALU is
 end tb_ALU;
 
 architecture testbench of tb_ALU is
-    -- Declaración de señales
+    -- Declaracion de senales
     signal tb_A, tb_B: std_logic_vector(7 downto 0);
     signal tb_cod_ope: std_logic_vector(3 downto 0);
     signal tb_CarryIn, tb_CarryOut: std_logic;
@@ -24,7 +24,7 @@ architecture testbench of tb_ALU is
     end component;
 
 begin
-    -- Mapear señales a la instancia de la ALU
+    -- Mapear seï¿½ales a la instancia de la ALU
     uut: ALU
         port map (
             A => tb_A,
@@ -35,10 +35,10 @@ begin
             resultado => tb_resultado
         );
 
-    -- Proceso de estímulos
+    -- Proceso de estï¿½mulos
     stimulus_process: process
     begin
-        -- Inicialización
+        -- Inicializaciï¿½n
         tb_A <= (others => '0');
         tb_B <= (others => '0');
         tb_cod_ope <= (others => '0');
@@ -60,18 +60,18 @@ begin
         wait for 10 ns;
 
         -- Prueba: NOT A
-        tb_cod_ope <= "1000"; -- Operación lógica: NOT A
+        tb_cod_ope <= "1000"; -- Operaciï¿½n lï¿½gica: NOT A
         wait for 10 ns;
 
         -- Prueba: A AND B
-        tb_cod_ope <= "1010"; -- Operación lógica: A AND B
+        tb_cod_ope <= "1010"; -- Operaciï¿½n lï¿½gica: A AND B
         wait for 10 ns;
 
         -- Prueba: A XOR B
-        tb_cod_ope <= "1110"; -- Operación lógica: A XOR B
+        tb_cod_ope <= "1110"; -- Operaciï¿½n lï¿½gica: A XOR B
         wait for 10 ns;
 
-        -- Finalización de la simulación
+        -- Finalizaciï¿½n de la simulaciï¿½n
         wait;
     end process;
 end testbench;
