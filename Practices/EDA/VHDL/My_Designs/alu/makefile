@@ -3,7 +3,7 @@ SRC := src
 OBJ := obj
 
 # Max Sim Time
-SIM_TIME := 60ns
+SIM_TIME := 150ns
 
 # Lista de archivos VHDL (puedes agregar más si es necesario)
 VHDL_FILES := $(wildcard $(SRC)/*.vhdl)
@@ -21,15 +21,15 @@ all: analyze execute run clean
 # Regla para analizar todos los archivos VHDL
 analyze: $(VHDL_FILES)
 	@mkdir -p $(OBJ)
-	ghdl -a --workdir=$(OBJ) $(VHDL_FILES)
+	ghdl -a -fsynopsys --workdir=$(OBJ) $(VHDL_FILES)
 
 # Regla para compilar el testbench
 execute: analyze
-	ghdl -e --workdir=$(OBJ) $(TESTBENCH)
+	ghdl -e -fsynopsys --workdir=$(OBJ) $(TESTBENCH)
 
 # Regla para ejecutar la simulación y generar el archivo VCD
 run: execute
-	ghdl -r --workdir=$(OBJ) $(TESTBENCH) --vcd=$(VCD_FILE) --stop-time=$(SIM_TIME)
+	ghdl -r -fsynopsys --workdir=$(OBJ) $(TESTBENCH) --vcd=$(VCD_FILE) --stop-time=$(SIM_TIME)
 	gtkwave $(VCD_FILE)
 
 # Limpieza de archivos generados
