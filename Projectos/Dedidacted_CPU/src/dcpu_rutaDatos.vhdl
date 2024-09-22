@@ -47,4 +47,70 @@ architecture Estructural of rutaDatos is
         );
     end component;
 
+    component unidadALU is -- Unidad Aritmetico-Logica
+        Port (
+            cod_alu: in std_logic_vector(2 downto 0);
+            A: in std_logic_vector(7 downto 0);
+            B: in std_logic_vector(7 downto 0);
+            output: out std_logic_vector(7 downto 0);
+            neq0: out std_logic;
+        );
+    end component;
+
+    component shifter is -- Registro de desplazamiento
+        Port (
+            input: in std_logic_vector(7 downto 0);
+            shift: in std_logic_vector(2 downto 0);
+            output: out std_logic_vector(7 downto 0);
+        );
+    end component;
+
+    component triestado is -- Buffer triestado
+        Port (
+            input: in std_logic_vector(7 downto 0);
+            oe: in std_logic;
+            output: out std_logic_vector(7 downto 0);
+        );
+    end component;
+
+    -- Signals de interconexion del circuito
+    signal muxOut: std_logic_vector(7 downto 0);
+    signal broutA: std_logic_vector(7 downto 0);    -- Banco Registro Out A (broutA)
+    signal broutB: std_logic_vector(7 downto 0);    -- Banco Registro Out B (broutB)
+    signal aluOut: std_logic_vector(7 downto 0);
+    signal shiftOut: std_logic_vector(7 downto 0);
+
+begin
+    -- Mapeo de puertos
+    U1: mux port map (
+        ie,
+        input,
+        shiftOut,
+        muxOut);
+    U2: bancoRegistro port map (
+        muxOut,
+        we,
+        wa,
+        rae,
+        raa,
+        rbe,
+        rba,
+        clk,
+        broutA,
+        broutB);
+    U3: unidadAlu port map (
+        cod_alu,
+        broutA,
+        broutB,
+        aluOut,
+        neq0);
+    U4: shifter port map (
+        aluOut,
+        shift,
+        shiftOut);
+    U5: triestado port map (
+        shiftOut,
+        oe,
+        output);
+
 end Estructural; -- Estructural
