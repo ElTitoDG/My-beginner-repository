@@ -1,0 +1,10 @@
+1. Programa que pide el lado de un cuadrado y muestra por pantalla su area y perimetro  (DONE)
+2. Programa que pide el radio de la base y altura y muestra por pantalla su volumen (DONE)
+3. Programa que pide dos horas por pantalla, formada por horas y minutos y muestra por pantalla la diferencia entre las dos 
+4. Programa que pida por pantalla los coeficientes de un polinomio de segundo grado a, b y c. 
+    Muestra por pantalla las raices del polinomio, puntos de corte con el eje x
+    
+    ayuda: 
+        #include <math.h>
+        compiler flag: -lm
+5. Acabar ejercicio de cambio de monedas (DONE)
