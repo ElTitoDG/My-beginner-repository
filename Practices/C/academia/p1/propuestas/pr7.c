@@ -17,19 +17,18 @@ int main()
         return EXIT_FAILURE;
     } else 
     {
-        printf("Datos introducidos dentro del limite\n");
         if (despachoOrigen < despaschoDestino)
         {
-            if (despaschoDestino - despachoOrigen < 60 - despaschoDestino+despachoOrigen)
-                printf("%d, creciente\n", despaschoDestino-despachoOrigen);
+            if (despaschoDestino - despachoOrigen < (60 - despaschoDestino) + despachoOrigen)
+                printf("Distancia: %d en sentido directo\n", despaschoDestino - despachoOrigen);
             else
-                printf("%d, decreciente\n", 60-despaschoDestino+despachoOrigen);
+                printf("Distancia: %d en sentido inverso\n", (60-despaschoDestino) + despachoOrigen);
         } else
         {
-            if (despachoOrigen - despaschoDestino < 60 - despachoOrigen+despaschoDestino)
-                printf("%d, decreciente\n", despachoOrigen - despaschoDestino);
+            if (despachoOrigen - despaschoDestino < (60 - despachoOrigen) + despaschoDestino)
+                printf("Distancia %d en sentido inverso\n", despachoOrigen - despaschoDestino);
             else
-                printf("%d, creciente\n", 60-despachoOrigen+despaschoDestino);
+                printf("Distancia: %d en sentido directo\n", (60-despachoOrigen) + despaschoDestino);
         }
     }
     return EXIT_SUCCESS;
