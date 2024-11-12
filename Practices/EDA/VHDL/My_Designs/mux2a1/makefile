@@ -3,7 +3,7 @@ SRC := src
 OBJ := obj
 
 # Max Sim Time
-SIM_TIME := 60ns
+SIM_TIME := 40ns
 
 # Lista de archivos VHDL (puedes agregar más si es necesario)
 VHDL_FILES := $(wildcard $(SRC)/*.vhdl)
@@ -34,6 +34,6 @@ run: execute
 
 # Limpieza de archivos generados
 clean:
-	rm -rf $(OBJ)/*.o $(OBJ)/*.cf $(VCD_FILE) $(EXECUTABLE) *.vcd
+	rm -rf $(OBJ)/*.o $(OBJ)/*.cf $(VCD_FILE) $(EXECUTABLE) *.vcd *.o tb_mux
 
 .PHONY: all analyze execute run clean

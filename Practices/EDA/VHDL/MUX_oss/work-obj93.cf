@@ -1,7 +1,0 @@
-v 4
-file . "mux.vhdl" "d147723f065051f72fde6c7c668f473b94dec178" "20240916201019.790":
-  entity mux at 1( 0) + 0 on 41;
-  architecture comportamiento of mux at 14( 387) + 0 on 42;
-file . "mux_testbench.vhdl" "22a04a8f5bf5f6b32e30a3632f8ca2f8dc21794b" "20240916201019.833":
-  entity mux_testbench at 1( 0) + 0 on 43;
-  architecture test of mux_testbench at 7( 88) + 0 on 44;
