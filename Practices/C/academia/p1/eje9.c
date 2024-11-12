@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void triUp(int *n) {
+void triUp(int n) {
 	int asteriscos, espacios;
 
 	asteriscos = 1;
-	espacios = *n - 1;
-	for (int i = 1; i < *n; i++) {
+	espacios = n - 1;
+	for (int i = 1; i < n; i++) {
 		for (int j = 1; j <= espacios; j++) {
 			printf(" ");
 		}
@@ -19,13 +19,13 @@ void triUp(int *n) {
 }
 
 
-void triDown(int *n) {
+void triDown(int n) {
 	int asteriscos, espacios;
 
-	asteriscos = 2 * (*n) - 1;
+	asteriscos = 2 * (n) - 1;
 	espacios = 0;
 
-	for (int i = 1; i <= *n; i++) {
+	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= espacios; j++) {
 			printf(" ");
 		}
@@ -44,8 +44,8 @@ int main()
 
 	printf("n: ");
 	scanf("%d", &n);
-	/* triUp(&n);
-	triDown(&n); */
+	triUp(n);
+	triDown(n);
 
 	for (int i = 1; i <= n; i++)
 	{
