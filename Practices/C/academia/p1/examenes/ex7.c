@@ -9,11 +9,10 @@ int generarAleatorio(int a, int b) { return rand() % (b - a + 1) + a; }
 bool esPrimo(int n)
 {
 	bool es;
-	int d;
 	int cd;
 
 	cd = 0;
-	for (d = 1; d <= n; d++) {
+	for (int d = 1; d <= n; d++) {
 		if (n % d == 0)
 			cd++;
 		if (cd == 2)
