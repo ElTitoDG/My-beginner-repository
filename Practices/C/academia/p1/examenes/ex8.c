@@ -66,7 +66,7 @@ void diaAnoInicio(int num)
 	}
 }
 
-int main()
+int main(void)
 {
 	int numero;
 	bool isBisiesto = false;
