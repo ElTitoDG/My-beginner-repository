@@ -27,7 +27,7 @@ bool esPrimo(int n)
 void antsig(int n, int *ant, int *sig)
 {
 	*ant = n - 1;
-	while (!esPrimo(*ant)) { // Mientras q8e la funcion devuelva false sigo decrementando porque no es primo
+	while (!esPrimo(*ant)) { // Mientras que la funcion devuelva false sigo decrementando porque no es primo
 		(*ant)--;
 	}
 
