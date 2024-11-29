@@ -1,0 +1,36 @@
+BasedOnStyle: llvm
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0
+PenaltyBreakString: 1000
+AllowShortFunctionsOnASingleLine: None
+KeepEmptyLinesAtTheStartOfBlocks: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: true # Llaves en nueva línea solo para funciones.
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+BinPackParameters: true
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
+SpaceAfterCStyleCast: true
+AlignOperands: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+IndentCaseLabels: true
+SortIncludes: false
+BreakConstructorInitializers: AfterColon
+SpacesInParentheses: false
+SpaceBeforeParens: ControlStatements
+SpaceAfterTemplateKeyword: true
+DerivePointerAlignment: false
+PointerAlignment: Left
