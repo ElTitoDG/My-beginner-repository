@@ -40,34 +40,31 @@ bool esVocalCool(char c){
 
 bool esCM(char c) { return c >= 'B' && c <= 'Z' && c != 'E' && c != 'I' && c != 'O' && c != 'U'; }
 
-//         012345678
-// true si DDDD-LLL, las LLL no pueden haber vocales nazis.
-bool esMatricula(char matricula[]){
+//         01234567
+// true si DDDD LLL, las LLL no pueden haber vocales nazis.
+bool esMatricula(char matricula[])
+{
 	bool es = false;
 	int tam, i;
 	
 	tam = strlen(matricula);
-	if(tam == 8){
-		if(matricula[4] == '-'){
+	if(tam == 8) {
+		if(matricula[4] == ' ') {
 			es = true;
 			i = 0;
-			while(i < 4 && es == true){
-				if(esDigito(matricula[i]) == false){
+			while(i < 4 && es == true) {
+				if(esDigito(matricula[i]) == false)
 					es = false;
-				}
-				else{
+				else
 					i++;
-				}
 			}
-			if(es == true){
+			if(es == true) {
 				i = 5;
-				while(i < 8 && es == true){
-					if(esCM(matricula[i]) == false){
+				while(i < 8 && es == true) {
+					if(esCM(matricula[i]) == false)
 						es = false;
-					}
-					else{
-						i++;	
-					}
+					else
+						i++;
 				}
 			}
 		}
@@ -76,14 +73,26 @@ bool esMatricula(char matricula[]){
 }
 
 // copia el contenido de c1 a c2.
-void copiar(char c1[], char c2[]){
+void copiar(char dst[], char org[]){
 	int i;
 	i = 0;
-	while(c1[i] != '\0'){
-		c2[i] = c1[i];
+	while(org[i] != '\0'){
+		dst[i] = org[i];
 		i++;
 	}
-	c2[i] = '\0';
+	dst[i] = '\0';
+}
+
+void copiarVo(char dst[], char org[])
+{
+	int i;
+	i = 0;
+	while (org[i] != '\0') {
+		if (esVocalCool(org[i]))
+			dst[i] = org[i];
+		i++;
+	}
+	dst[i] = '\0';
 }
 
 //copia las vocales de c1 a c2.
@@ -129,8 +138,14 @@ int main(){
 
 	printf("diferencia: %d\n", 'A' - 'a');
 
+	char frase1[] = "Hola";
+	char frase2[15];
+	char frase3[15];
+	copiar(frase2, frase1);
+	copiarVo(frase3, frase1);
+
+	printf("Frase copiada: %s\n", frase2);
+	printf("Frase copiada: %s\n", frase3);
+
 	return 0;
 }
-
-
-
