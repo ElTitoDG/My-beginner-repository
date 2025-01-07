@@ -26,9 +26,9 @@ begin
         end if;
     end process escritura;
 
-    lectura_puerto_A: process (rae, raa)
+    lectura_puerto_A: process (rea, raa)
     begin
-        if (rae = '1') then
+        if (rea = '1') then
             A <= contenido(conv_integer(raa));
         end if;
     end process lectura_puerto_A;

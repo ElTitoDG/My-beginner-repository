@@ -28,7 +28,7 @@ architecture Estructural of rutaDatos is
             ie: in std_logic;
             input1: in std_logic_vector(7 downto 0);
             input0: in std_logic_vector(7 downto 0);
-            output: out std_logic_vector(7 downto 0);
+            output: out std_logic_vector(7 downto 0)
         );
     end component;
 
@@ -43,7 +43,7 @@ architecture Estructural of rutaDatos is
             rba: in std_logic_vector(1 downto 0);
             clk: in std_logic;
             A: out std_logic_vector(7 downto 0);
-            B: out std_logic_vector(7 downto 0);
+            B: out std_logic_vector(7 downto 0)
         );
     end component;
 
@@ -53,7 +53,7 @@ architecture Estructural of rutaDatos is
             A: in std_logic_vector(7 downto 0);
             B: in std_logic_vector(7 downto 0);
             output: out std_logic_vector(7 downto 0);
-            neq0: out std_logic;
+            neq0: out std_logic
         );
     end component;
 
@@ -61,7 +61,7 @@ architecture Estructural of rutaDatos is
         Port (
             input: in std_logic_vector(7 downto 0);
             shift: in std_logic_vector(2 downto 0);
-            output: out std_logic_vector(7 downto 0);
+            output: out std_logic_vector(7 downto 0)
         );
     end component;
 
@@ -69,7 +69,7 @@ architecture Estructural of rutaDatos is
         Port (
             input: in std_logic_vector(7 downto 0);
             oe: in std_logic;
-            output: out std_logic_vector(7 downto 0);
+            output: out std_logic_vector(7 downto 0)
         );
     end component;
 

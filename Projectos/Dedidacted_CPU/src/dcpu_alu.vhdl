@@ -7,7 +7,7 @@ entity unidadALU is
   port (    cod_alu: in std_logic_vector(2 downto 0);
             A, B: in std_logic_vector(7 downto 0);
             output: out std_logic_vector(7 downto 0);
-            neq0: out std_logic;
+            neq0: out std_logic
         );
 end unidadALU;
 
@@ -18,14 +18,14 @@ begin
     begin
         -- Realizamos las operaciones segun cod_alu
         case(cod_alu) is
-            when "000" => resultado <= A;
-            when "001" => resultado <= A and B;
-            when "010" => resultado <= A or B;
-            when "011" => resultado <= not(A);
-            when "100" => resultado <= A + B;
-            when "101" => resultado <= A - B;
-            when "110" => resultado <= A + 1;        
-            when others => resultado <= A - 1;
+            when "000" => resultado := A;
+            when "001" => resultado := A and B;
+            when "010" => resultado := A or B;
+            when "011" => resultado := not(A);
+            when "100" => resultado := A + B;
+            when "101" => resultado := A - B;
+            when "110" => resultado := A + 1;
+            when others => resultado := A - 1;
         end case ;
 
         -- Analizamos el resultado, si es 0 neq0 pasa a cierto
