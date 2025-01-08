@@ -13,3 +13,6 @@
 [submodule "Projectos/Repos/S.M.S_Unix_Version"]
 	path = Projectos/Repos/S.M.S_Unix_Version
 	url = https://github.com/ElTitoDG/S.M.S_Unix_Version.git
+[submodule "Projectos/Repos/ExpoTutorial_StickerSmash"]
+	path = Projectos/Repos/ExpoTutorial_StickerSmash
+	url = https://github.com/ElTitoDG/ExpoTutorial_StickerSmash.git
