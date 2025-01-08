@@ -10,3 +10,6 @@
 [submodule "Projectos/Repos/gas-bill"]
 	path = Projectos/Repos/gas-bill
 	url = https://github.com/ElTitoDG/gas-bill
+[submodule "Projectos/Repos/S.M.S_Unix_Version"]
+	path = Projectos/Repos/S.M.S_Unix_Version
+	url = https://github.com/ElTitoDG/S.M.S_Unix_Version.git
