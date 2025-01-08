@@ -7,3 +7,6 @@
 [submodule "Projectos/Repos/OLD_C-HTTP-WebServer"]
 	path = Projectos/Repos/OLD_C-HTTP-WebServer
 	url = https://github.com/ElTitoDG/OLD_C-HTTP-WebServer
+[submodule "Projectos/Repos/gas-bill"]
+	path = Projectos/Repos/gas-bill
+	url = https://github.com/ElTitoDG/gas-bill
