@@ -53,6 +53,16 @@ void mostrarJuegosFecha(TWeb web)
   int posJuego;
   printf("Introduce dia, mes y año: ");
   scanf("%d %d %d", &buscada.dia, &buscada.mes, &buscada.anyo);
+
+  for (int i = 0; i < web.numClientes; i++) {
+	if (web.clientes[i].descarga.dia == buscada.dia && web.clientes[i].descarga.mes == buscada.mes && web.clientes[i].descarga.anyo == buscada.anyo)
+		for (int j = 0; j < web.numJuegos; j++) {
+			if (web.clientes[i].descargado == web.listaJuegos[j].codigo) {
+				printf("%s\n", web.listaJuegos[j].nombre);
+			}
+		}
+
+  }
 }
 
 int main(void)
@@ -73,6 +83,8 @@ int main(void)
     .numJuegos = 10,
     .clientes = {
       {1, "Juan SinMiedo", 1, {15, 10, 2024}},
+      {1, "Juan SinMiedo", 4, {15, 10, 2024}},	
+      {1, "Juan SinMiedo", 3, {15, 10, 2024}},
       {2, "Ana Banana", 3, {20, 11, 2024}},
       {3, "Pepe Pecas", 5, {5, 12, 2024}},
       {4, "Laura Risas", 7, {25, 12, 2024}},
@@ -80,6 +92,8 @@ int main(void)
     },
     .numClientes = 5
   };
+
+  mostrarJuegosFecha(web);
 
   return EXIT_SUCCESS;
 }
