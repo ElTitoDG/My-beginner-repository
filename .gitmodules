@@ -1,3 +1,6 @@
-[submodule "Projectos/p2st"]
-	path = Projectos/CWebServer
-	url = https://github.com/ElTitoDG/CWebServer
+[submodule "Projectos/Repos/CWebServer"]
+	   path = Projectos/Repos/CWebServer
+	   url = https://github.com/ElTitoDG/CWebServer
+[submodule "Projectos/Repos/SDL2DEngine"]
+	   path = Projectos/Repos/SDL2DEngine
+	   url = https://github.com/ElTitoDG/SDL2DEngine
