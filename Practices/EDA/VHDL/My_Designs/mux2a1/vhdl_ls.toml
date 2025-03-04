@@ -1,0 +1,6 @@
+standard = "2008"
+
+[libraries]
+mux.files = [
+    "src/*.vhdl"
+]
