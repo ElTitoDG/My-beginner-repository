@@ -1,6 +1,0 @@
-standard = "2008"
-
-[libraries]
-dcpu.files = [
-    "src/*.vhdl"
-]
