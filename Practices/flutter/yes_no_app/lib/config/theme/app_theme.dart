@@ -13,12 +13,11 @@ const List<Color> _colorTheme = [
 ];
 
 class AppTheme {
-
   // variable para controlar el color de la app
   final int selectedColor;
 
   AppTheme({this.selectedColor = 0}) : 
-    assert(selectedColor >= 0 && selectedColor <= _colorTheme.length -1, 'Colors must be between 0 and ${_colorTheme.length-1}');
+    assert(selectedColor >= 0 && selectedColor <= _colorTheme.length -1, 'Colors must be between 0 and ${_colorTheme.length}');
 
   ThemeData theme() {
     return ThemeData(
