@@ -37,6 +37,7 @@ dependencies:
   provider: ^6.1.4
   intl: ^0.20.2
   animate_do: ^4.2.0
+  video_player: ^2.9.5
 
 dev_dependencies:
   flutter_test:
