@@ -43,21 +43,30 @@ class _FullscreenPlayerState extends State<FullscreenPlayer> {
           return Center(child: CircularProgressIndicator(strokeWidth: 2));
         }
 
-        return AspectRatio(
-          aspectRatio: controller.value.aspectRatio,
-          child: Stack(
-            children: [
-              VideoPlayer(controller),
-
-              // Gradiente
-
-              // Texto
-              Positioned(
-                bottom: 50,
-                left: 20,
-                child: _VideoCaption(caption: widget.caption)
-              ),
-            ],
+        return GestureDetector(
+          onTap: () {
+            if (controller.value.isPlaying) {
+              controller.pause();
+              return;
+            }
+            controller.play();
+          },
+          child: AspectRatio(
+            aspectRatio: controller.value.aspectRatio,
+            child: Stack(
+              children: [
+                VideoPlayer(controller),
+          
+                // Gradiente
+          
+                // Texto
+                Positioned(
+                  bottom: 50,
+                  left: 20,
+                  child: _VideoCaption(caption: widget.caption)
+                ),
+              ],
+            ),
           ),
         );
       },
@@ -68,7 +77,7 @@ class _FullscreenPlayerState extends State<FullscreenPlayer> {
 class _VideoCaption extends StatelessWidget { 
   final String caption;
 
-  const _VideoCaption({super.key, required this.caption});
+  const _VideoCaption({required this.caption});
 
   @override
   Widget build(BuildContext context) {
