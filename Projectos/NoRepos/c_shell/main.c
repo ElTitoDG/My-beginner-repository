@@ -8,10 +8,9 @@
 #define DELIM " \t\r\n\a"
 
 // Command Struct
-typedef struct
-{
-	char *name; // Command Name
-	char **args; // Pointer to the list of args
+typedef struct {
+	char *name;		// Command Name
+	char **args;	// Pointer to the list of args
 	char arg_count; // Number of args
 } Command;
 
@@ -28,10 +27,9 @@ int main(int argc, char *argv[])
 
 	char *line = NULL;
 	while (status) {
-		printf("X > "); 		// Shell Prompt
-		line = read_line();		// Read line
-		if (parse_line(line, &cmd))	// Parse the line
-		{
+		printf("X > ");					// Shell Prompt
+		line = read_line();				// Read line
+		if (parse_line(line, &cmd)) { 	// Parse the line
 			// execute the command we parsed from user
 			status = execute_command(&cmd);
 			free_command(&cmd);
@@ -48,10 +46,8 @@ char *read_line(void)
 	char *line = NULL;
 	size_t buffsize = 0;
 
-	if (getline(&line, &buffsize, stdin) == -1)
-	{
-		if (feof(stdin))
-		{
+	if (getline(&line, &buffsize, stdin) == -1) {
+		if (feof(stdin)) {
 			exit(EXIT_SUCCESS); // End of File or Cmd+C(MacOs)
 		}
 		perror("read_line");
@@ -60,40 +56,34 @@ char *read_line(void)
 	return line;
 }
 
-int parse_line (char *line, Command *cmd)
+int parse_line(char *line, Command *cmd)
 {
 	int buffsize = MAX_ARGS;
 	int pos = 0;
 	char **tokens = malloc(buffsize * sizeof(char *));
 	char *token;
 
-	if (!token)
-	{
+	if (!token) {
 		fprintf(stderr, "allocation error\n");
 		exit(EXIT_FAILURE);
 	}
 
 	token = strtok(line, DELIM);
-	while (token != NULL) 
-	{
+	while (token != NULL) {
 		tokens[pos++] = token;
-		if (pos >= buffsize)
-		{
+		if (pos >= buffsize) {
 			buffsize += MAX_ARGS;
-			tokens = realloc(tokens, buffsize * sizeof(char*));
-			if (!tokens)
-			{
+			tokens = realloc(tokens, buffsize * sizeof(char *));
+			if (!tokens) {
 				fprintf(stderr, "allocation error\n");
 				exit(EXIT_FAILURE);
 			}
 		}
-
 		token = strtok(NULL, DELIM);
 	}
 
 	tokens[pos] = NULL;
-	if (pos == 0)
-	{
+	if (pos == 0) {
 		free(tokens);
 		return 0;
 	}
@@ -109,32 +99,27 @@ int execute_command(Command *cmd)
 {
 	pid_t pid;
 
-	if (strcmp(cmd->name, "exit") == 0)
-		return EXIT_SUCCESS;
+	if (strcmp(cmd->name, "exit") == 0) return EXIT_SUCCESS;
+
 	pid = fork(); // Create child process;
-	if (pid == -1)
-	{
+	if (pid == -1) {
 		fprintf(stderr, "fork() failed\n");
 		exit(EXIT_FAILURE);
 	}
 
-	if (pid == 0)
-		execvp(cmd->name, cmd->args);
+	if (pid == 0) execvp(cmd->name, cmd->args);
 
 	// wait for the child process to finins
 	// waitpid() cleans up child process
 	// otherwise it becomes a zombie!
-	
+
 	int status;
 	do {
-		(void) waitpid(pid, &status, WUNTRACED);
-	
-	} while (!WIFEXITED(status) &&  !WIFSIGNALED(status));
+		(void)waitpid(pid, &status, WUNTRACED);
+
+	} while (!WIFEXITED(status) && !WIFSIGNALED(status));
 
 	return EXIT_FAILURE;
 }
 
-void free_command(Command *cmd)
-{
-	free(cmd->args);
-}
+void free_command(Command *cmd) { free(cmd->args); }
