@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:toktik/domain/entities/video_post.dart';
 import 'package:toktik/domain/repositories/video_post_repository.dart';
-import 'package:toktik/infraestructure/models/local_video_model.dart';
-import 'package:toktik/share/data/local_video_post.dart';
 
 class DiscoverProvider extends ChangeNotifier {
   final VideoPostRepository videosRepository;
