@@ -66,7 +66,7 @@ class _ButtonsView extends StatelessWidget {
               icon: Icon(Icons.account_box_outlined),
             ),
 
-            CustomButton(textColor: Colors.white),
+            CustomButton(textButton: 'Custom Button', textColor: Colors.white),
 
             IconButton(
               onPressed: () {},
@@ -88,7 +88,13 @@ class _ButtonsView extends StatelessWidget {
 
 class CustomButton extends StatelessWidget {
   final Color textColor;
-  const CustomButton({super.key, this.textColor = Colors.black});
+  final String textButton;
+
+  const CustomButton({
+    super.key, 
+    this.textColor = Colors.black, 
+    this.textButton = 'Hello World'
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -105,8 +111,8 @@ class CustomButton extends StatelessWidget {
 
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            
-            child: Text('Custom Button', style: TextStyle(color: textColor),),
+
+            child: Text(textButton, style: TextStyle(color: textColor)),
           ),
         ),
       ),
