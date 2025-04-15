@@ -9,6 +9,7 @@ final appRouter = GoRouter(
       path: '/',
       builder: (context, state) => HomeScreen(),
     ),
+
     GoRoute(
       name: ButtonsScreen.name,
       path: '/buttons',
@@ -18,6 +19,11 @@ final appRouter = GoRouter(
       name: CardsScreen.name,
       path: '/cards',
       builder: (context, state) => CardsScreen(),
+    ),
+    GoRoute(
+      name: ProgressScreen.name,
+      path: '/progress',
+      builder: (context, state) => ProgressScreen(),
     ),
   ],
 );
