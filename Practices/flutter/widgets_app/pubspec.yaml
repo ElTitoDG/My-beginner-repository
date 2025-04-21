@@ -10,7 +10,9 @@ dependencies:
   animate_do: ^4.2.0
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.6.1
   go_router: ^14.8.1
+  riverpod: ^2.6.1
 
 dev_dependencies:
   flutter_test:
