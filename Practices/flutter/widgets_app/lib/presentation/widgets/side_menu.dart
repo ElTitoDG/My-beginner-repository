@@ -29,8 +29,6 @@ class _SideMenuState extends State<SideMenu> {
         final menuItem = appMenuItems[value];
         context.push(menuItem.link);
         widget.scaffoldKey.currentState?.closeDrawer();
-
-
       },
       children: [
         Padding(
